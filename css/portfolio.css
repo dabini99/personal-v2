@@ -1,0 +1,153 @@
+section#portfolio{
+  background-color: #eeb5b6;
+  padding-bottom: 50px;
+  /*! height: 100vh; */
+  min-height: 770px;
+  padding-top: 50px;
+}
+section#portfolio .wrap{
+  background-color: #eeeeee;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /*! margin-bottom: 50px; */
+  padding-left: 50px;
+  box-sizing: border-box;
+  /*! border-radius: 30px; */
+  padding-right: 50px;
+}
+section#portfolio .wrap h2{
+  font-size: 75px;
+  border-bottom: 3px solid;
+  margin-bottom: 30px;
+  /*! text-align: center; */
+  border-top: 3px solid;
+  padding-left: 110px;
+}
+section#portfolio .wrap ul{
+   
+  flex-direction: column;
+  /*! margin-bottom: 50px; */
+  gap: 20px;
+}
+section#portfolio .wrap ul li{
+  width: 95%;
+  margin: 0 auto;
+  /*! flex-wrap: wrap; */
+  flex-direction: row-reverse;
+}
+section#portfolio .wrap ul li:nth-child(1){
+
+}
+section#portfolio .wrap ul li:nth-child(1) img{
+  width: 418px;
+  /*! padding-bottom: 50px; */
+  /*! padding-top: 20px; */
+  padding: 50px 0 50px 50px;
+  height: 210px;
+}
+section#portfolio .wrap ul li div.text{
+
+  /*! line-height: 1.2; */
+}
+section#portfolio .wrap ul li div.text h3{
+  font-size: 55px;
+  /*! line-height: 1.2; */
+  margin-bottom: 20px;
+}
+section#portfolio .wrap ul li div.text ul{
+  line-height: 2;
+}
+section#portfolio .wrap ul li div.text ul li{
+  line-height: 1.2;
+}
+section#portfolio .wrap ul li div.text ul li:nth-child(1){
+  font-size: 23px;
+}
+section#portfolio .wrap ul li div.text ul li:nth-child(2){
+  font-size: 20px;
+  margin-top: 10px;
+}
+section#portfolio .wrap ul li div.text ul li:nth-child(3){
+  font-size: 20px;
+  margin-top: 10px;
+}
+section#portfolio .wrap ul li div.text ul li:nth-child(4){
+  margin-top: 10px;
+  font-size: 16px;
+}
+/*  */
+section#portfolio .wrap ul li:nth-child(2){
+  flex-direction: row;
+}
+section#portfolio .wrap ul li:nth-child(2) img{
+  width: 418px;
+  padding: 50px 50px 50px 0;
+  height: 210px;
+}
+section#portfolio .wrap ul li:nth-child(2) div.text2{
+
+}
+section#portfolio .wrap ul li:nth-child(2) div.text2 h3{
+  font-size: 55px;
+  /*! line-height: 1.2; */
+  margin-bottom: 20px;
+}
+section#portfolio .wrap ul li:nth-child(2) div.text2 ul{
+  line-height: 2;
+}
+section#portfolio .wrap ul li:nth-child(2) div.text2 ul li{
+  line-height: 1.2;
+}
+section#portfolio .wrap ul li:nth-child(2) div.text2 ul li:nth-child(1){
+  font-size: 23px;
+}
+section#portfolio .wrap ul li:nth-child(2) div.text2 ul li:nth-child(2){
+  font-size: 20px;
+  margin-top: 10px;
+}
+section#portfolio .wrap ul li:nth-child(2) div.text2 ul li:nth-child(3){
+  font-size: 20px;
+  margin-top: 10px;
+}
+section#portfolio .wrap ul li:nth-child(2) div.text2 ul li:nth-child(4){
+  margin-top: 10px;
+  font-size: 16px;
+}
+/*  */
+section#portfolio .wrap ul li:nth-child(3){
+  flex-direction: row-reverse;
+}
+section#portfolio .wrap ul li:nth-child(3) img{
+  width: 418px;
+  padding: 50px 0 50px 50px;
+  height: 210px;
+}
+section#portfolio .wrap ul li:nth-child(3) div.text3{
+
+}
+section#portfolio .wrap ul li:nth-child(3) div.text3 h3{
+  font-size: 55px;
+  /*! line-height: 1.2; */
+  margin-bottom: 20px;
+}
+section#portfolio .wrap ul li:nth-child(3) div.text3 ul{
+  line-height: 2;
+}
+section#portfolio .wrap ul li:nth-child(3) div.text3 ul li{
+  line-height: 1.2;
+}
+section#portfolio .wrap ul li:nth-child(3) div.text3 ul li:nth-child(1){
+  font-size: 23px;
+}
+section#portfolio .wrap ul li:nth-child(3) div.text3 ul li:nth-child(2){
+  font-size: 20px;
+  margin-top: 10px;
+}
+section#portfolio .wrap ul li:nth-child(3) div.text3 ul li:nth-child(3){
+  font-size: 20px;
+  margin-top: 10px;
+}
+section#portfolio .wrap ul li:nth-child(3) div.text3 ul li:nth-child(4){
+  margin-top: 10px;
+  font-size: 16px;
+}
