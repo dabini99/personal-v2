@@ -57,7 +57,7 @@ header div.wrap .sublist{
   opacity:0;
   transition: 1s;
 }
-header:hover div.wrap .sublist{
+header div.wrap:hover .sublist{
   opacity:1;
 }
 header div.wrap .sublist ul{
