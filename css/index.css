@@ -54,11 +54,8 @@ header div.wrap .sublist{
   z-index: 2;
   height: 33.5%;
   grid-template-rows: 1fr 1fr auto;
-  opacity:0;
   transition: 1s;
-}
-header div.wrap:hover .sublist{
-  opacity:1;
+  display: none;
 }
 header div.wrap .sublist ul{
   grid-column: 3 / span 4;
@@ -155,4 +152,10 @@ aside ul li a{
   display: block;
   background-color: yellow;
   border-radius: 50%;
+}
+.show{
+  display: grid !important;
+}
+.none{
+  display: none !important;
 }

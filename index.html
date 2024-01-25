@@ -34,7 +34,26 @@
     <link rel="stylesheet" href="css/skill.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/contact.css">
-
+<!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(
+            function(){
+                $("header div.wrap ul.flex li").hover(
+                    function(){ 
+                        $("header div.wrap .sublist").addClass("show");
+                    },
+                    function(){
+                        // $("header div.wrap .sublist").removeClass("show");
+                    }
+                );
+                $("header div.wrap .sublist").mouseleave(function(){
+                    $("header div.wrap .sublist").removeClass("show");
+                });
+            }
+         );
+    </script>
+   
 </head>
 <body>
     <!-- 상단영역 -->
