@@ -11,13 +11,9 @@ section#portfolio{
 }
 section#portfolio .wrap{
   background-color: #eeeeee;
-  padding-top: 50px;
-  padding-bottom: 50px;
   /*! margin-bottom: 50px; */
-  padding-left: 50px;
   box-sizing: border-box;
-  /*! border-radius: 30px; */
-  padding-right: 50px;
+  padding: 50px;
 }
 section#portfolio .wrap h2{
   font-size: 75px;
