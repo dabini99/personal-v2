@@ -146,10 +146,10 @@ main .h2::before{
 }
 /* 한국어폰트 */
 .kor{
-   font-family: 'Gowun Batang', serif;
+   font-family: 'Cafe24Ssurround';
 }
 
 /* 영어폰트 */
 .eng{
-   font-family: 'Noto Serif KR', serif;
+   font-family: 'LeeSeoyun';
 }
