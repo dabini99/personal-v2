@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>It's me Dabin</title>
+    <title>RE-It's me Dabin</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <!-- //구글폰트 -->
@@ -37,52 +37,128 @@
 <!-- 제이쿼리 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(
-            function(){
-                $("header div.wrap ul.flex li").hover(
-                    function(){ 
-                        $("header div.wrap .sublist").addClass("show");
-                    },
-                    function(){
-                        // $("header div.wrap .sublist").removeClass("show");
-                    }
-                );
-                $("header div.wrap .sublist").mouseleave(function(){
-                    $("header div.wrap .sublist").removeClass("show");
-                });
-            }
-         );
+        // $(document).ready(
+        //     function(){
+        //         $("header div.he ul.flex li").hover(
+        //             function(){ 
+        //                 $("header div.he .sublist").addClass("show");
+        //             });
+        //         $("header div.he .sublist").mouseleave(function(){
+        //             $("header div.he .sublist").removeClass("show");
+        //         });
+        //     }
+        //  );
     </script>
    
 </head>
 <body>
     <!-- 상단영역 -->
     <header>
-        <div class="wrap">
+        <div class="he">
             <hl>
-                <a href="#">It's me Dabin</a>
-            </hl>           
-            <ul class="flex">
-                <li><a href="">Contact</a></li>
-            </ul>
-            <div class="sublist">
-                <h2 class="hide">연락방법</h2>
-                <ul class="useguide">
-                    <li><a href="">Gmail</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">LinkedIn</a></li>
-                    <li><a href="">Github</a></li>
+                <a href="#">Hi, I am Dabin</a>
+            </hl>
+            <div class="between flex">
+                <img src="img/meme.jpg" alt="사진">
+                <ul class="list">
+                    <li>Name: Dabin Kim</li>
+                    <li>1999Y  12M  10D</li>
+                    <li>Hi! I'm Dabin, a Web publisher who likes new things.</li>
                 </ul>
-                <p>© 2023 KIMDABIN</p>
+                <ul class="list2">
+                    <li class="kor">계획하고 실행하는 웹퍼블리셔
+                    <br class="eng">I didn't know how to code like an elementary student but I am a prepared to Web publisher, Now I am coding, too! I'm a prepared Web publisher!</br></li>
+                </ul>
+                <ul class="list3">
+                    <img src="img/me2.jpeg" alt="사진2">
+                    <li class="kor">학력: 2017.3~2021.8 전주대학교</li>
+                    <li class="kor">경력:<br>2020.12~2021.4 (주)한신 주임</br>2021.7~2023.6 전주대학교 소방안전공학과 행정조교</li>
+                    <li class="kor">직업훈련이력: <br>이젠IT컴퓨터아카데미 모란 [디지털디자인]UX/UI 웹디자인 with 유튜브동영상 반응형 웹(스마트혼합)-B</br></li>
+                </ul>
             </div>
-            <a href="#">메뉴보기</a>
         </div>
     </header>
     <!-- 타이틀 영역 -->
     <div id="title">
-        <div class="wrap">
-            <h2 class="center">Hi, I'm Dabin. <span class="block center"> This is my Portfolio.</span></h2>
-        </div>
+        <section id="portfolio">
+            <div class="wrap">
+                <h2 class="h2">Portfolio</h2>
+                <ul class="flex between">
+                    <li class="flex between">
+                        <a href=""><img src="img/pfimg/pf1-aqunic.png" alt="accuniq"></a>
+                        <div class="text">
+                            <h3 class="h3">Accunuq</h3>
+                            <ul class="kor">
+                                <li>제작목적 : 시각적인 디자인을 연습하거나 웹사이트의 사용자 경험을 분석하고 이해하기 위해 기존 코드를 참고하지 않고 디자인적인 측면이나 레이아웃, 색상, 구성 등을 따라가며 비슷한 외양을 구현하였습니다</li>
+                                <li>제작 기간: 2023.11</li>
+                                <li>코드 작성 / 개발</li>
+                                <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="flex between">
+                        <a href=""><img src="img/pfimg/pf2-l.point.png" alt="lpiont"></a>
+                        <div class="text2">
+                            <h3 class="h3">L.point</h3>
+                            <ul class="kor">
+                                <li>제작 목적</li>
+                                <li>제작 기간</li>
+                                <li>코드작성 / 개발</li>
+                                <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="flex between">
+                        <a href=""><img src="img/pfimg/pf1_samyang.png" alt="삼양"></a>
+                        <div class="text3">
+                            <h3 class="h3">Samyang Roundsquare</h3>
+                            <ul class="kor">
+                                <li>제작 목적</li>
+                                <li>제작 기간</li>
+                                <li>코드작성 / 개발</li>
+                                <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="flex between">
+                        <a href=""><img src="img/pfimg/OS971A1_small.png" alt="하이트진로"></a>
+                        <div class="text3">
+                            <h3 class="h3">하이트 진로</h3>
+                            <ul class="kor">
+                                <li>제작 목적</li>
+                                <li>제작 기간</li>
+                                <li>코드작성 / 개발</li>
+                                <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="flex between">
+                        <a href=""><img src="img/pfimg/pr4_re.png" alt="hb paper_re"></a>
+                        <div class="text3">
+                            <h3 class="h3">HB Paper_re</h3>
+                            <ul class="kor">
+                                <li>제작 목적</li>
+                                <li>제작 기간</li>
+                                <li>코드작성 / 개발</li>
+                                <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="flex between">
+                        <a href=""><img src="img/pfimg/pf3_src.png" alt="수림문화재단"></a>
+                        <div class="text3">
+                            <h3 class="h3">수림문화재단</h3>
+                            <ul class="kor">
+                                <li>제작 목적</li>
+                                <li>제작 기간</li>
+                                <li>코드작성 / 개발</li>
+                                <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>  
+            </div>
+        </section>
     </div>
     <!-- 슬라이드 -->
     <!-- <aside>
@@ -94,31 +170,7 @@
             <li><a href="">contact</a></li>
         </ul>
     </aside> -->
-    <!-- Who I am -->
     <main>
-        <section id="WhoIam">
-            <div class="wrap">
-                <h2>Who I am</h2>
-                <div class="between flex">
-                    <img src="img/meme.jpg" alt="사진">
-                    <ul class="list">
-                        <li>Name: Dabin Kim</li>
-                        <li>1999Y  12M  10D</li>
-                        <li>Hi! I'm Dabin, a Web publisher who likes new things.</li>
-                    </ul>
-                    <ul class="list2">
-                        <li class="kor">코딩은 1도 모르는 코린이 마음은 준비된 웹퍼블리셔였지만 이젠 코딩 한다! 나도 준비된 웹퍼블리셔!
-                        <br class="eng">I didn't know how to code like an elementary student but I am a prepared to Web publisher, Now I am coding, too! I'm a prepared Web publisher!</br></li>
-                    </ul>
-                    <ul class="list3">
-                        <img src="img/me2.jpeg" alt="사진2">
-                        <li class="kor">학력: 2017.3~2021.8 전주대학교</li>
-                        <li class="kor">경력:<br>2020.12~2021.4 (주)한신 주임</br>2021.7~2023.6 전주대학교 소방안전공학과 행정조교</li>
-                        <li class="kor">직업훈련이력: <br>이젠IT컴퓨터아카데미 모란 [디지털디자인]UX/UI 웹디자인 with 유튜브동영상 반응형 웹(스마트혼합)-B</br></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
         <section id="skill">
         <div class="wrap">
             <h2 class="h2">The things I do</h2>
@@ -135,101 +187,22 @@
                 </ul>
         </div>
     </section>
-    <!-- 포트폴리오 -->
-    <section id="portfolio">
-        <div class="wrap">
-            <h2 class="h2">Portfolio</h2>
-            <ul class="flex between">
-                <li class="flex between">
-                    <a href=""><img src="img/pfimg/pf1-aqunic.png" alt="accuniq"></a>
-                    <div class="text">
-                        <h3 class="h3">Accunuq</h3>
-                        <ul class="kor">
-                            <li>제작목적 : 시각적인 디자인을 연습하거나 웹사이트의 사용자 경험을 분석하고 이해하기 위해 기존 코드를 참고하지 않고 디자인적인 측면이나 레이아웃, 색상, 구성 등을 따라가며 비슷한 외양을 구현하였습니다</li>
-                            <li>제작 기간: 2023.11</li>
-                            <li>코드 작성 / 개발</li>
-                            <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="flex between">
-                    <a href=""><img src="img/pfimg/pf2-l.point.png" alt="lpiont"></a>
-                    <div class="text2">
-                        <h3 class="h3">L.point</h3>
-                        <ul class="kor">
-                            <li>제작 목적</li>
-                            <li>제작 기간</li>
-                            <li>코드작성 / 개발</li>
-                            <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="flex between">
-                    <a href=""><img src="img/pfimg/pf1_samyang.png" alt="삼양"></a>
-                    <div class="text3">
-                        <h3 class="h3">Samyang Roundsquare</h3>
-                        <ul class="kor">
-                            <li>제작 목적</li>
-                            <li>제작 기간</li>
-                            <li>코드작성 / 개발</li>
-                            <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="flex between">
-                    <a href=""><img src="img/pfimg/OS971A1_small.png" alt="하이트진로"></a>
-                    <div class="text3">
-                        <h3 class="h3">하이트 진로</h3>
-                        <ul class="kor">
-                            <li>제작 목적</li>
-                            <li>제작 기간</li>
-                            <li>코드작성 / 개발</li>
-                            <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="flex between">
-                    <a href=""><img src="img/pfimg/pr4_re.png" alt="hb paper_re"></a>
-                    <div class="text3">
-                        <h3 class="h3">HB Paper_re</h3>
-                        <ul class="kor">
-                            <li>제작 목적</li>
-                            <li>제작 기간</li>
-                            <li>코드작성 / 개발</li>
-                            <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="flex between">
-                    <a href=""><img src="img/pfimg/pf3_src.png" alt="수림문화재단"></a>
-                    <div class="text3">
-                        <h3 class="h3">수림문화재단</h3>
-                        <ul class="kor">
-                            <li>제작 목적</li>
-                            <li>제작 기간</li>
-                            <li>코드작성 / 개발</li>
-                            <li>#웹표준 #웹접근성 #반응형디자인 <span class="eng">#HTML5(emmet) #CSS3(sass) #JavaScript(Jquery)  #Adobe Photoshop,illustrator #Git #codepen</span>#웹아이콘,웹폰트 #카카오 오븐,발사믹</li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>  
-        </div>
-    </section>
-    <!-- contact -->
-   <!-- <section id="contact">
-        <div class="wrap">
-            <h2 class="hide">Contact to Me!</h2>
-            <ul class="flex">
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        <a href="" class="top">TOP</a>
-    </section>  --> 
     </main>
     <footer>
-        
+        <ul class="flex">
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="sublist">
+                <h2 class="hide">연락방법</h2>
+                <ul class="useguide">
+                    <li><a href="">Gmail</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">LinkedIn</a></li>
+                    <li><a href="">Github</a></li>
+                </ul>
+                <p>© 2023 KIMDABIN</p>
+            </div>
+            <a href="#">메뉴보기</a>
     </footer>
 </body>
 </html>
