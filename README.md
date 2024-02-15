@@ -6,7 +6,6 @@
 취업을 위한 포트폴리오 제작, 자신의 작업을 전시하고 홍보
 
 ## 기술 스텍
-```bash
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
@@ -40,7 +39,7 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> 
   </a> 
 </p>
-```
+
 
 
 ## 기능 및 섹션
