@@ -5,6 +5,7 @@ section#skill{
   box-sizing: border-box;
   min-height: 600px;
   padding-bottom: 50px;
+  margin-left: 300px;
 }
 section#skill .wrap{
   background-color: #eeeeee;
