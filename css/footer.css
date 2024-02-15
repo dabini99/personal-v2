@@ -1,22 +1,49 @@
 footer{
   margin-left: 300px;
   background-color: #eeb5b6;
-  padding: 0 50px;
-  min-height: 600px;
+  padding: 50px;
+  /*! min-height: 600px; */
 }
 footer .last{
    
 }
-footer .last ul{
-   
+footer .last ul{   
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
-footer .last ul li{
-   
+footer .last ul li{   
+  font-size: 30px;
+  /*! justify-self: end; */
+  margin-right: 110px;
+}
+footer .last ul li:nth-child(1){  
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  font-size: 50px;
+  justify-self: self-start;
+  margin-left: 110px;
+}
+footer .last ul li:nth-child(2){  
+  grid-column: 2;
+  grid-row: 1;
+}
+footer .last ul li:nth-child(3){   
+  grid-column: 2;
+  grid-row: 2;
+}
+footer .last ul li:nth-child(4){  
+  grid-column: 2;
+  grid-row: 3;
+}
+footer .last ul li:nth-child(5){  
+  grid-column: 2;
+  grid-row: 4;
 }
 footer .last ul li a{
    
 }
-footer .last p{
-   
+footer .last p{  
+  margin-left: 110px;
 }
 
