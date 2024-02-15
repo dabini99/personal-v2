@@ -7,5 +7,20 @@ body{
    font-family: 'Gowun Batang', serif;
    font-family: 'Nanum Gothic Coding', monospace;
    font-family: 'Noto Serif KR', serif;
+@font-face {
+   font-family: 'LeeSeoyun';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Cafe24Ssurround';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+
 }
 
