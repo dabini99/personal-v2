@@ -10,7 +10,9 @@
 (프로젝트를 개발할 때 사용한 기술 스택과 도구를 나열)
 ```
 - HTML5
-- css3
+- css3 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
+  </a> 
 - javascript
 - jquery
 
