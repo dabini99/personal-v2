@@ -1,129 +1,74 @@
 /* 상단영역 */
 header{
-  /*! background-color: #eeb5b6; */
-  padding: 25px;
-  align-items: center;
-  display: flex;
-}
-header div.wrap{
-  display: flex;
-  justify-content: space-between;
-}
-header div.wrap hl{
-  font-size: 27px;
-}
-header div.wrap hl a{
-
-}
-header div.wrap ul.flex {
-  /*! gap: 80px; */
-  height: 100%;
-}
-header div.wrap ul.flex li{
-   
-}
-header div.wrap ul.flex li a{   
-  padding: 0 20px;
-  height: 100%;
-  display: block;
-  box-sizing: border-box;
-  font-size: 35px;
-  transform: translateX(-61px);
-}
-header div.wrap ul.flex li a:hover{
-  color: #eeb5b6;
-}
-header div.wrap>a{
-  font-size: 0;
-  width: 50px;
-  height: 30px;
-  background-image: url(../img/menu.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-header div.wrap .sublist{
-  position: absolute;
+  position: fixed;
   left: 0;
-  top: 85px;
-  width: 100%;
-  padding: 40px 0 70px;
-  background-color: #eee;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  z-index: 2;
-  height: 33.5%;
-  grid-template-rows: 1fr 1fr auto;
-  transition: 1s;
-  display: none;
+  background-color: white;
 }
-header div.wrap .sublist ul{
-  grid-column: 3 / span 4;
-}
-header div.wrap .sublist ul li{
-  font-size: 45px;
-}
-header div.wrap .sublist ul.useguide li a{
-
-}
-header div.wrap .sublist ul.useguide li a:hover{
-color: #eeb5b6;
-}
-header div.wrap .sublist p{
-
-  grid-column: 2;
-  grid-row: 3;
-}
-/* 타이틀영역 */
-div#title{
-  background-color: #9FD2C4;
-  padding-top: 30px;
-  /*! padding-bottom: 30px; */
+header div.he{
+  width: 300px;
   height: 100vh;
-  min-height: 770px;
-  background-image: url(../img/for.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-div#title .wrap{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  font-size: x-large;
-  /*! background-image: url(../img/big_pink.gif); */
-  /*! width: 2096px; */
-  margin: 0 auto;
-  height: 769px;
-  /*! background-size: contain; */
-  /*! background-position: center; */
-  /*! background-repeat: no-repeat; */
-  position: relative;
 }
-div#title .wrap::before{
-  content: ""; 
-  width: 700px;
-  height: 700px;
-  display: block;
-  background-color: #eeb5b6;
+header div.he hl{
+  font-size: 27px;
+  margin: 30px;
+}
+header div.he hl a{
+
+}
+/* 헤더의 소개문 */
+header div.he .between{
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  row-gap: 20px;
+}
+header div.he .between>img{  
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  left: calc(50% - 350px);
 }
-div#title .wrap h2{
-  font-size: 150%;
-  z-index: 1;
-  text-align: center;
+header div.he .between ul.list{
+  
 }
-div#title .wrap h2 span{
-  font-size: 155%;
-  /*! z-index: 1; */
+header div.he .between ul.list li{
+  
+  line-height: 1.4;
+  font-family: 'LeeSeoyun';
 }
-div#title .wrap h3{
-  font-size: 350%;
+header div.he .between ul.list2{
+  
 }
+header div.he .between ul.list2 li.kor{  
+  line-height: 1.4;
+  font-family: 'LeeSeoyun';
+  /*! font-family: 'Cafe24Ssurround'; */
+}
+header div.he .between ul.list2 li.kor br.eng{
+  
+}
+header div.he .between ul.list3{  
+  display: flex;
+  flex-direction: column;
+}
+header div.he .between ul.list3::before{
+  content: "";
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+}
+header div.he .between ul.list3 img{  
+  width: 200px;
+  height: 250px;
+  display: none;
+}
+header div.he .between ul.list3 li.kor{  
+  font-family: 'Cafe24Ssurround';
+  line-height: 1.4;
+}
+
+/* who I am */
 section#WhoIam{
   padding-top: 50px;
   padding-bottom: 50px;
