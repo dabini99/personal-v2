@@ -7,8 +7,10 @@
 
 ## 기술 스텍
 (프로젝트를 개발할 때 사용한 기술 스택과 도구를 나열)
-- HTML
-- css
+- HTML5
+- css3
+- javascript
+- jquery
 
 ## 기능 및 섹션
 (웹사이트의 주요 기능과 섹션을 설명)
@@ -20,7 +22,10 @@
 
 ## 포트폴리오 작품
 (작품들을 나열하고 각 작품에 대한 간략한 설명과 링크 제공)
-- 삼성전자 클론코딩 http://testyong.dothome.co.kr/pf1/main.html
+- accuniq 클론코딩 https://dabini99.github.io/pf1-accuniq/
+- lpoint 클론코딩 https://dabini99.github.io/pf2-L.point/
+- hbpaper 클론코딩 https://dabini99.github.io/pf3-HB/
+- hitejinro 클론코딩 https://dabini99.github.io/pf5-hitejinro/
 - 
 ## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
 ![pf1](https://github.com/pageservice/personal/assets/71798491/040b7316-5c4c-4a09-b7e8-6c54d60ec832)
