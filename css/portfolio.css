@@ -1,9 +1,13 @@
+#title{
+
+}
 section#portfolio{
   background-color: #eeb5b6;
   padding-bottom: 50px;
   /*! height: 100vh; */
   min-height: 770px;
   padding-top: 50px;
+  margin-left: 300px;
 }
 section#portfolio .wrap{
   background-color: #eeeeee;
