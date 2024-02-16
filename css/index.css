@@ -44,7 +44,6 @@ header div.he .between ul.list2{
 header div.he .between ul.list2 li.kor{  
   line-height: 1.4;
   font-family: 'LeeSeoyun';
-  /*! font-family: 'Cafe24Ssurround'; */
 }
 header div.he .between ul.list2 li.kor br.eng{
   
@@ -64,7 +63,6 @@ header div.he .between ul.list3 img{
   display: none;
 }
 header div.he .between ul.list3 li.kor{  
-  font-family: 'Cafe24Ssurround';
   line-height: 1.4;
 }
 
