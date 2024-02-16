@@ -38,17 +38,28 @@
 <!-- 제이쿼리 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
-        // $(document).ready(
-        //     function(){
-        //         $("header div.he ul.flex li").hover(
-        //             function(){ 
-        //                 $("header div.he .sublist").addClass("show");
-        //             });
-        //         $("header div.he .sublist").mouseleave(function(){
-        //             $("header div.he .sublist").removeClass("show");
-        //         });
-        //     }
-        //  );
+         $(document).ready(
+             function(){
+                //$("header div.he ul.flex li").hover(
+                //    function(){ 
+                //        $("header div.he .sublist").addClass("show");
+                //    });
+                //$("header div.he .sublist").mouseleave(function(){
+                //    $("header div.he .sublist").removeClass("show");
+                //});
+
+                //자기소개 부분 옆으로 슬라이딩
+                $(window).scroll(function(){
+                    if($(window).scrollTop()>$("section#portfolio .wrap ul li:nth-child(1)").height()+140){
+                        $("header").addClass("slideH");
+                        $("section#portfolio,section#skill,footer").addClass("backT");
+                    }else{
+                        $("header").removeClass("slideH");
+                        $("section#portfolio,section#skill,footer").removeClass("backT");
+                    }
+                });
+             }
+          );
     </script>
    
 </head>

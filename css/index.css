@@ -104,3 +104,7 @@ aside ul li a{
 .none{
   display: none !important;
 }
+.slideH{
+  left: -300px;
+  transition: 0.5s;
+}
