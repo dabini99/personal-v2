@@ -3,6 +3,7 @@ footer{
   background-color: #eeb5b6;
   padding: 50px;
   /*! min-height: 600px; */
+  position: relative;
 }
 footer .last{   
   background-color: rgba(256,256,256,0.4)
@@ -47,14 +48,27 @@ footer .last ul li:nth-child(5){
   grid-column: 2;
   grid-row: 4;
 }
-footer .last ul li a{
+footer .last ul li>a{
    
 }
-footer .last p{  
+footer .last>p{  
   margin-left: 110px;
   padding-bottom: 50px;
 }
-footer .last a{
-  
+footer .last>a{  
+  position: absolute;
+  right: 100px;
+  top: 0;
+  font-size: 0;
+  background-image: url(../img/top.svg);
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
