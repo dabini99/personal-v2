@@ -79,8 +79,8 @@ header div.he .between .ii{
   gap: 10px;
 }
 header div.he .between .ii a{
-
   display: block;
+  box-shadow: 7px 7px #f7a5b3;
 }
 header div.he .between .ii a:nth-of-type(1){  
   background-color: pink;
