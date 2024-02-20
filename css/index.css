@@ -3,6 +3,7 @@ header{
   position: fixed;
   left: 0;
   background-color: white;
+  background-color: #d5f5d5;
 }
 header div.he{
   width: 300px;
@@ -16,7 +17,7 @@ header div.he hl{
   margin: 30px;
 }
 header div.he hl a{
-
+  font-weight: 700;
 }
 /* 헤더의 소개문 */
 header div.he .between{
@@ -45,12 +46,13 @@ header div.he .between ul.list2 li.kor{
   line-height: 1.4;
   font-family: 'LeeSeoyun';
 }
-header div.he .between ul.list2 li.kor br.eng{
-  
+header div.he .between ul.list2 li.kor span.eng{  
+  display: block;
 }
 header div.he .between ul.list3{  
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 header div.he .between ul.list3::before{
   content: "";
@@ -64,6 +66,11 @@ header div.he .between ul.list3 img{
 }
 header div.he .between ul.list3 li.kor{  
   line-height: 1.4;
+  font-weight: 700;
+}
+header div.he .between ul.list3 li.kor span{  
+  font-weight: 500;
+  display: block;
 }
 header div.he .between .ii{
   width: 100%;

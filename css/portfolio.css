@@ -38,8 +38,9 @@ section#portfolio .wrap ul li{
 section#portfolio .wrap ul li img{
   
 }
-section#portfolio .wrap ul li:nth-child(1){
-
+section#portfolio .wrap>ul > li:nth-child(1){
+  background-color: rgba(119,119,119,0.3);
+  border-radius: 30px;
 }
 section#portfolio .wrap ul li:nth-child(1) img{
   width: 418px;
@@ -117,7 +118,7 @@ section#portfolio .wrap ul li:nth-child(even) div.text2 ul li:nth-child(4){
   font-size: 16px;
 }
 /* samyang */
-section#portfolio .wrap ul li:nth-child(odd){
+section#portfolio .wrap ul li:nth-child(2n+1){
   flex-direction: row-reverse;
 }
 section#portfolio .wrap ul li:nth-child(odd) img{

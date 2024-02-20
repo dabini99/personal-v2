@@ -146,7 +146,8 @@ main .h2::before{
 }
 /* 한국어폰트 */
 .kor{
-   font-family: 'LeeSeoyun';
+   /* font-family: 'LeeSeoyun'; */
+   font-family: 'TheJamsil5Bold';
 }
 
 /* 영어폰트 */

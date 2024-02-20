@@ -22,7 +22,7 @@ footer .last ul li:not(:first-child){
   /*! justify-self: end; */
   margin-right: 110px;
 }
-footer .last ul li:not(:first-child):hover a{
+footer .last ul li:not(:first-child) a:hover{
   color: white;
 }
 footer .last ul li:nth-child(1){  
@@ -58,17 +58,28 @@ footer .last>p{
 footer .last>a{  
   position: absolute;
   right: 100px;
-  top: 0;
+  top: -55px;
   font-size: 0;
-  background-image: url(../img/top.svg);
-  width: 24px;
-  height: 24px;
-  display: block;
+  /*! background-image: url(../img/round1.png); */
+  width: 157px;
+  height: 157px;
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(204,204,204,0.5);
+  border-radius: 50%;
+}
+footer .last > a::before{
+  content: "";
+  background-image: url(../img/top.svg);
+  width: 60px;
+  height: 60px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotateZ(-30deg);
 }
 
 

@@ -59,7 +59,10 @@
                         $("header").css("transition","0.5s").css("margin-left","0");
                     }
                 });
-
+                //top버튼 누르면 위로 올라가기
+                $("footer .last > a").click(function(){
+                    $("html,body").animate({scrollTop:0},1000);
+                });
             }
           );
     </script>
@@ -81,13 +84,13 @@
                 </ul>
                 <ul class="list2">
                     <li class="kor">계획하고 실행하는 웹퍼블리셔
-                    <br class="eng">I didn't know how to code like an elementary student but I am a prepared to Web publisher, Now I am coding, too! I'm a prepared Web publisher!</br></li>
+                    <span class="eng">I didn't know how to code like an elementary student but I am a prepared to Web publisher, Now I am coding, too! I'm a prepared Web publisher!</span></li>
                 </ul>
                 <ul class="list3">
                     <img src="img/me2.jpeg" alt="사진2">
-                    <li class="kor">학력: 2017.3~2021.8 전주대학교</li>
-                    <li class="kor">경력:<br>2020.12~2021.4 (주)한신 주임</br>2021.7~2023.6 전주대학교 소방안전공학과 행정조교</li>
-                    <li class="kor">직업훈련이력: <br>이젠IT컴퓨터아카데미 모란 [디지털디자인]UX/UI 웹디자인 with 유튜브동영상 반응형 웹(스마트혼합)-B</br></li>
+                    <li class="kor">학력: <span>2017.3~2021.8 전주대학교</span></li>
+                    <li class="kor">경력:<span>2020.12~2021.4 (주)한신 주임 2021.7~2023.6 전주대학교 소방안전공학과 행정조교</span> </li>
+                    <li class="kor">직업훈련이력: <span>이젠IT컴퓨터아카데미 모란 [디지털디자인]UX/UI 웹디자인 with 유튜브동영상 반응형 웹(스마트혼합)-B</span> </li>
                 </ul>
                 <div class="ii">
                     <a href="#skill">skill</a>
@@ -246,7 +249,7 @@
                 <li><a href="">Github</a></li>
             </ul>
             <p>© 2023 KIMDABIN</p>
-            <a href="">Top</a>
+            <a href="#">Top</a>
         </div>
     </footer>
 </body>
