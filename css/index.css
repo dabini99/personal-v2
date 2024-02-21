@@ -46,18 +46,35 @@ header div.he .between ul.list2 li.kor{
   line-height: 1.4;
   font-family: 'LeeSeoyun';
 }
+header div.he .between ul.list2 li.kor::before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #b1dfb1;
+  margin: 5px 0;
+}
 header div.he .between ul.list2 li.kor span.eng{  
   display: block;
+}
+header div.he .between ul.list2 li.kor span.eng::before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #b1dfb1;
+  margin: 5px 0;
 }
 header div.he .between ul.list3{  
   display: flex;
   flex-direction: column;
   gap: 5px;
+  padding-bottom: 20px;
 }
 header div.he .between ul.list3::before{
   content: "";
-  border: 1px solid #eee;
   margin-bottom: 15px;
+  border-top: 2px solid #b1dfb1;
 }
 header div.he .between ul.list3 img{  
   width: 200px;
@@ -71,6 +88,7 @@ header div.he .between ul.list3 li.kor{
 header div.he .between ul.list3 li.kor span{  
   font-weight: 500;
   display: block;
+  padding-left: 35px;
 }
 header div.he .between .ii{
   width: 100%;
