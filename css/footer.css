@@ -74,6 +74,11 @@ footer .last>a{
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+@keyframe hi{
+  100%{
+    transform: rotateX(30deg);
+  }
+}
 footer .last > a::before{
   content: "";
   background-image: url(../img/top.svg);
