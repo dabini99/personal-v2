@@ -84,5 +84,13 @@ footer .last > a::before{
   background-repeat: no-repeat;
   transform: rotateZ(-30deg);
 }
+footer .last > a::after{
+  content: "";
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  border: dashed #e3fb91;
+  border-radius: 50%;
+}
 
 
