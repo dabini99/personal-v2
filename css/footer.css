@@ -4,6 +4,7 @@ footer{
   padding: 50px;
   /*! min-height: 600px; */
   position: relative;
+  background-color: #c7c6c6;
 }
 footer .last{   
   background-color: rgba(256,256,256,0.4)
@@ -67,7 +68,7 @@ footer .last>a{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(204,204,204,0.5);
+  background-color: rgba(159, 157, 157, 0.5);
   border-radius: 50%;
   animation-name: hi;
   animation-duration: 2s;

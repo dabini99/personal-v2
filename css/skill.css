@@ -6,6 +6,7 @@ section#skill{
   min-height: 600px;
   padding-bottom: 50px;
   margin-left: 300px;
+  background-color: #c7c6c6;
 }
 section#skill .wrap{
   background-color: #eeeeee;
@@ -28,6 +29,19 @@ section#skill .wrap p{
   line-height: 3;
   font-size: 23px;
   display: flex;
+}
+section#skill .wrap .graphM{
+
+  /*! transform: rotate(180deg); */
+}
+section#skill .wrap .graphM .graph{
+}
+section#skill .wrap .graphM .graph span{
+  
+  background-color: #eee;
+  width: 500px;
+  height: 30px;
+  display: block;
 }
 
 .backT{
