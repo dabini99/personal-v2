@@ -32,18 +32,50 @@ section#skill .wrap p{
 }
 section#skill .wrap .graphM{
 
-  /*! transform: rotate(180deg); */
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 section#skill .wrap .graphM .graph{
 }
 section#skill .wrap .graphM .graph span{
-  
-  background-color: #eee;
-  width: 500px;
   height: 30px;
   display: block;
 }
-
+section#skill .wrap .graphM .graph:nth-child(1) span{  
+  background-color: #ef9393;
+  width: 75%;
+}
+section#skill .wrap .graphM .graph:nth-child(2) span{
+  
+  background-color: #ef9393;
+  width: 85%;
+}
+section#skill .wrap .graphM .graph:nth-child(3) span{
+  
+  background-color: #ef9393;
+  width: 65%;
+}
+section#skill .wrap .graphM .graph:nth-child(4) span{  
+  background-color: #ef9393;
+  width: 65%;
+}
+section#skill .wrap .graphM .graph:nth-child(5) span{  
+  background-color: #ef9393;
+  width: 95%;
+}
+section#skill .wrap .graphM .graph:nth-child(6) span{  
+  background-color: #ef9393;
+  width: 95%;
+}
+section#skill .wrap .graphM .graph:nth-child(7) span{  
+  background-color: #ef9393;
+  width: 65%;
+}
+section#skill .wrap .graphM .graph:nth-child(8) span{  
+  background-color: #ef9393;
+  width: 55%;
+}
 .backT{
   margin-left: 0 !important;
   transition: 0.5s;
