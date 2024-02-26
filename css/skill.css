@@ -45,7 +45,9 @@ section#skill .wrap .graphM .graph:nth-child(1)::before{
   width: 30px;
   height: 30px;
   display: block;
-  background-color: rebeccapurple;
+  background-image: url(../img/html.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 section#skill .wrap .graphM .graph span{
   height: 30px;
