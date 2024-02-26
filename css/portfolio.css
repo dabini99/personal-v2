@@ -23,189 +23,65 @@ section#portfolio .wrap h2{
   border-top: 3px solid;
   padding-left: 110px;
 }
-section#portfolio .wrap>ul{
-   
-  flex-direction: column;
+section#portfolio .wrap>div.flex{
+  /*! flex-direction: column; */
   /*! margin-bottom: 50px; */
-  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  row-gap: 20px;
 }
-section#portfolio .wrap ul li{
-  width: 95%;
-  margin: 0 auto;
-  /*! flex-wrap: wrap; */
-  flex-direction: row-reverse;
+section#portfolio .wrap>div.flex .odd{
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: #ddd;
 }
-section#portfolio .wrap ul li img{
-  
-}
-section#portfolio .wrap>ul > li:nth-child(1){
-}
-section#portfolio .wrap ul li:nth-child(1) img{
-  width: 418px;
-  /*! padding-bottom: 50px; */
-  /*! padding-top: 20px; */
-  padding: 50px 0 50px 50px;
-  height: 352px;
-}
-section#portfolio .wrap ul li div.text{
-  /*! line-height: 1.2; */
-}
-section#portfolio .wrap ul li div.text h3{
-  font-size: 55px;
-  margin: 30px;
-}
-section#portfolio .wrap ul li div.text ul{
-  line-height: 2;
-}
-section#portfolio .wrap ul li div.text ul li{
-  font-weight: 500;
-}
-section#portfolio .wrap ul li div.text ul li:nth-child(1){
-  font-size: 23px;
-  font-weight: 700;
-}
-section#portfolio .wrap ul li div.text ul li:nth-child(2){
-  font-size: 20px;
-  line-height: 3;
-}
-section#portfolio .wrap ul li div.text ul li:nth-child(3){
-  font-size: 20px;
-  line-height: 1.6;
-}
-section#portfolio .wrap ul li div.text ul li:nth-child(4){
-  margin-top: 10px;
-  font-size: 16px;
-}
-/* l.point */
-section#portfolio .wrap ul li:nth-child(even){
-  flex-direction: row;
-}
-section#portfolio .wrap ul li:nth-child(even) img{
-  width: 418px;
-  padding: 50px 50px 50px 0;
-  height: 352px;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text2{
-
-  width: 60%;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text2 h3{
-  font-size: 55px;
-  margin: 30px;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text2 ul{
-  line-height: 2;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text2 ul li{
-  line-height: 1.2;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text2 ul li:nth-child(1){
-  font-size: 23px;
-  font-weight: 700;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text2 ul li:nth-child(2){
-  font-size: 20px;
-  line-height: 3;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text2 ul li:nth-child(3){
-  font-size: 20px;
-  line-height: 1.6;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text2 ul li:nth-child(4){
-  margin-top: 10px;
-  font-size: 16px;
-}
-/* samyang */
-section#portfolio .wrap>ul>li:nth-child(2n+1){
-  flex-direction: row-reverse;
-  background-color: rgba(119,119,119,0.1);
-}
-section#portfolio .wrap > ul > li:nth-child(2n+1) a{  
-}
-section#portfolio .wrap ul li:nth-child(odd) img{
-  width: 418px;
-  padding: 50px 10px 50px 50px;
-  height: 352px;
-}
-section#portfolio .wrap ul li:nth-child(odd) div.text3{
+section#portfolio .wrap>div.flex .odd a{
 
 }
-section#portfolio .wrap ul li:nth-child(odd) div.text3 h3{
-  font-size: 55px;
-  /*! line-height: 1.2; */
-  margin: 30px;
+section#portfolio .wrap>div.flex .odd a img{
+
 }
-section#portfolio .wrap ul li:nth-child(odd) div.text3 ul{
-  line-height: 2;
+section#portfolio .wrap>div.flex .odd a.text{
+
 }
-section#portfolio .wrap ul li:nth-child(odd) div.text3 ul li{
-  line-height: 1.2;
+section#portfolio .wrap>div.flex .odd a.text h3{
+
 }
-section#portfolio .wrap ul li:nth-child(odd) div.text3 ul li:nth-child(1){
-  font-size: 23px;
-  font-weight: 700;
+section#portfolio .wrap>div.flex .odd a.text ul{
+
 }
-section#portfolio .wrap ul li:nth-child(odd) div.text3 ul li:nth-child(2){
-  font-size: 20px;
-  line-height: 3;
+section#portfolio .wrap>div.flex .odd a.text ul li{
+
 }
-section#portfolio .wrap ul li:nth-child(odd) div.text3 ul li:nth-child(3){
-  font-size: 20px;
-  line-height: 1.6;
+section#portfolio .wrap>div.flex .odd a.text ul li span{
+
 }
-section#portfolio .wrap ul li:nth-child(odd) div.text3 ul li:nth-child(4){
-  margin-top: 10px;
-  font-size: 16px;
+section#portfolio .wrap>div.flex .even{
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: #ddd;
 }
-@keyframes hi{
-  100%{
-    transform: rotateZ(30deg);
-  }
+section#portfolio .wrap>div.flex .even a{
+
 }
-section#portfolio .wrap .www h4::before{
-  content: "";
-  background-image: url(../img/ra.svg);
-  width: 150px;
-  height: 150px;
-  display: block;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transform: rotateZ(-30deg);
+section#portfolio .wrap>div.flex .even a img{
+
 }
-/* hitejinro */
- section#portfolio .wrap>ul > li:nth-child(2n){
-  flex-direction: row;
-  background-color: rgba(119,119,119,0.1);
+section#portfolio .wrap>div.flex .even a.text{
+
 }
-section#portfolio .wrap > ul > li:nth-child(2n) a{  
-  width: 40%;
+section#portfolio .wrap>div.flex .even a.text h3{
+
 }
-section#portfolio .wrap ul li:nth-child(even) img{
-  width: 418px;
-  padding: 50px 50px 50px 10px;
-  height: 210px;
-  height: 352px;
+section#portfolio .wrap>div.flex .even a.text ul{
+
 }
-section#portfolio .wrap ul li:nth-child(even) div.text3 h3{
-  font-size: 55px;
-  margin: 30px;
+section#portfolio .wrap>div.flex .even a.text ul li{
+
 }
-section#portfolio .wrap ul li:nth-child(even) div.text3 ul{  
-  line-height: 2;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text3 ul li:nth-child(1){
-  font-size: 23px;
-  font-weight: 700;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text3 ul li:nth-child(2){
-  font-size: 20px;
-  line-height: 3;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text3 ul li:nth-child(3){
-  font-size: 20px;
-  line-height: 1.6;
-}
-section#portfolio .wrap ul li:nth-child(even) div.text3 ul li:nth-child(4){
-  margin-top: 10px;
-  font-size: 16px;
+section#portfolio .wrap>div.flex .even a.text ul li span{
+
 }

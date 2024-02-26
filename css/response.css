@@ -1,0 +1,70 @@
+@media screen and (max-width:768px){
+  /* header{
+  position: initial;
+}
+  header nav.he{ 
+  width: 100%;
+  height: auto;
+  }
+  header nav.he .between{
+  display: none;
+  }
+/*  title  */
+  /*#title{
+    
+  width: 100%;
+  }
+  section#portfolio{   
+  margin-left: 0;
+  width: 100%;
+  /*! padding: 0 10px; */
+  /* }
+  section#portfolio .wrap{
+    
+  padding: 0;
+  }
+  section#portfolio .wrap h2{
+    
+  padding-left: 15px;
+  font-size: 4rem;
+  }
+  section#portfolio .wrap > ul{
+    
+  gap: 0;
+  width: 100%;
+  }
+  section#portfolio .wrap ul li{
+  width: 100%;
+  flex-direction: column !important;
+  }
+  section#portfolio .wrap > ul > li a{
+    
+  width: 100vw !important;
+  }
+  section#portfolio .wrap ul li img{
+  max-width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  }
+  section#portfolio .wrap ul li div.text{
+    
+  width: 100%;
+  }
+  section#portfolio .wrap ul li div.text h3{
+  font-size: 3rem;
+  margin: 10px;
+  }
+  section#portfolio .wrap ul li div.text ul{
+    
+  }
+  section#portfolio .wrap ul li div.text ul li{
+  font-size: 1.5rem !important;
+  width: 100% !important;
+  display: block;
+  }
+  section#portfolio .wrap ul li div.text ul li span{
+    
+  display: block;
+  width: 100%;
+  } */ 
+}
