@@ -3,7 +3,7 @@ section#skill{
   /*! padding-bottom: 50px; */
   height: 100vh;
   box-sizing: border-box;
-  min-height: 600px;
+  min-height: 1000px;
   padding-bottom: 50px;
   margin-left: 300px;
   background-color: #c7c6c6;
@@ -39,13 +39,77 @@ section#skill .wrap .graphM{
 section#skill .wrap .graphM .graph{
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 section#skill .wrap .graphM .graph:nth-child(1)::before{
   content: "";
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   display: block;
   background-image: url(../img/html.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section#skill .wrap .graphM .graph:nth-child(2)::before{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(../img/css.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section#skill .wrap .graphM .graph:nth-child(3)::before{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(../img/jq.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section#skill .wrap .graphM .graph:nth-child(4)::before{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(../img/js.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section#skill .wrap .graphM .graph:nth-child(5)::before{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(../img/jen.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section#skill .wrap .graphM .graph:nth-child(6)::before{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(../img/sass.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section#skill .wrap .graphM .graph:nth-child(7)::before{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(../img/ps.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section#skill .wrap .graphM .graph:nth-child(8)::before{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(../img/ai.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -53,6 +117,10 @@ section#skill .wrap .graphM .graph span{
   height: 30px;
   display: block;
   line-height: 30px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  padding-left: 10px;
 }
 section#skill .wrap .graphM .graph:nth-child(1) span{  
   background-color: #ef9393;
