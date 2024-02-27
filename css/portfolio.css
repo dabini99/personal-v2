@@ -1,6 +1,44 @@
 #title{
 
 }
+/* about me */
+section#aboutme{
+  margin-left: 300px;
+  background-color: #eeb5b6;
+  /*! padding-bottom: 50px; */
+  /*! height: 100vh; */
+  /*! min-height: 770px; */
+  padding-top: 50px;
+  margin-left: 300px;
+  background-color: #c7c6c6;
+}
+section#aboutme .subT{
+
+  background-color: #eeeeee;
+  background-color: #eeeeee;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  padding: 50px;
+}
+section#aboutme .subT ul.list1 {
+
+}
+section#aboutme .subT ul.list1 li {
+
+}
+section#aboutme .subT ul.list1 li span {
+
+}
+section#aboutme .subT ul.list2 {
+
+}
+section#aboutme .subT ul.list2 li {
+
+}
+section#aboutme .subT ul.list2 li span {
+
+}
+/* portfolio */
 section#portfolio{
   background-color: #eeb5b6;
   padding-bottom: 50px;

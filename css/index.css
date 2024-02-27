@@ -1,9 +1,13 @@
+body{
+  background-color: #c7c6c6;
+}
 /* 상단영역 */
 header{
   position: fixed;
   left: 0;
   background-color: white;
   background-color: #d5f5d5;
+  background-color: transparent;
 }
 header nav.he{
   width: 300px;
@@ -11,13 +15,17 @@ header nav.he{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 header nav.he hl{
   font-size: 27px;
-  margin: 30px;
+  margin: 30px 0;
+  width: 100%;
+  text-align: center;
 }
 header nav.he hl a{
   font-weight: 700;
+  display: block;
 }
 /* 헤더의 소개문 */
 header nav.he .between{
@@ -35,87 +43,55 @@ header nav.he .between ul.list{
   
 }
 header nav.he .between ul.list li{
-  
   line-height: 1.4;
   font-family: 'LeeSeoyun';
 }
-header nav.he .between ul.list2{
-  
-}
-header nav.he .between ul.list2 li.kor{  
-  line-height: 1.4;
-  font-family: 'LeeSeoyun';
-}
-header nav.he .between ul.list2 li.kor::before{
-  content: "";
-  display: block;
+header nav.he .between .subPage{
+
   width: 100%;
-  height: 100%;
-  border-top: 2px solid #b1dfb1;
-  margin: 5px 0;
 }
-header nav.he .between ul.list2 li.kor span.eng{  
-  display: block;
-}
-header nav.he .between ul.list2 li.kor span.eng::before{
-  content: "";
-  display: block;
+header nav.he .between .subPage a{
+  background-color: pink;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 15px;
   width: 100%;
-  height: 100%;
-  border-top: 2px solid #b1dfb1;
-  margin: 5px 0;
-}
-header nav.he .between ul.list3{  
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  padding-bottom: 20px;
-}
-header nav.he .between ul.list3::before{
-  content: "";
-  margin-bottom: 15px;
-  border-top: 2px solid #b1dfb1;
-}
-header nav.he .between ul.list3 img{  
-  width: 200px;
-  height: 250px;
-  display: none;
-}
-header nav.he .between ul.list3 li.kor{  
-  line-height: 1.4;
-  font-weight: 700;
-}
-header nav.he .between ul.list3 li.kor span{  
-  font-weight: 500;
-  display: block;
-  padding-left: 35px;
-}
-header nav.he .between .ii{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-}
-header nav.he .between .ii a{
   display: block;
   box-shadow: 7px 7px #f7a5b3;
 }
-header nav.he .between .ii a:nth-of-type(1){  
-  background-color: pink;
-  width: calc(100% / 2);
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  border-radius: 15px;
+/* header 버튼 */
+header nav.he .ii{
+  width: 85%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: end;
+  box-sizing: border-box;
+  margin-bottom: 30px;
 }
-header nav.he .between .ii a:nth-of-type(2){
-  
+header nav.he .ii a{
+  display: block;
+  box-shadow: 7px 7px #f7a5b3;
+}
+header nav.he .ii a:nth-of-type(1){  
   background-color: pink;
   width: calc(100% / 2);
   height: 60px;
   line-height: 60px;
   text-align: center;
   border-radius: 15px;
+  width: 100%;
+}
+header nav.he .ii a:nth-of-type(2){
+  background-color: pink;
+  width: calc(100% / 2);
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 15px;
+  width: 100%;
 }
 
 /* who I am */
