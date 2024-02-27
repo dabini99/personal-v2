@@ -1,6 +1,6 @@
 section#skill{
   background-color: #eeb5b6;
-  /*! padding-bottom: 50px; */
+  padding-top: 50px;
   height: 100vh;
   box-sizing: border-box;
   min-height: 1000px;
@@ -20,10 +20,11 @@ section#skill .wrap{
 }
 section#skill .wrap h2{
   font-size: 75px;
-  border-bottom: 3px solid;
+  border-bottom: 3px solid #ddd;
   margin-bottom: 10px;
-  border-top: 3px solid;
+  /*! border-top: 3px solid; */
   /*! padding-left: 110px; */
+  padding-bottom: 30px;
 }
 section#skill .wrap p{
   line-height: 3;
@@ -142,7 +143,7 @@ section#skill .wrap .graphM .graph:nth-child(4) span{
 }
 section#skill .wrap .graphM .graph:nth-child(5) span{  
   background-color: #ef9393;
-  width: 95%;
+  width: 90%;
 }
 section#skill .wrap .graphM .graph:nth-child(6) span{  
   background-color: #ef9393;

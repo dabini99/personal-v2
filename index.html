@@ -54,10 +54,10 @@
                 $(window).scroll(function(){
                     if($(window).scrollTop()>$("section#portfolio .wrap ul li:nth-child(1)").height()+140){
                         $("header").addClass("slideH");
-                        $("section#portfolio,section#skill,footer").addClass("backT");
+                        $("section#aboutme,section#portfolio,section#skill,footer").addClass("backT");
                     }else{
                         $("header").removeClass("slideH");
-                        $("section#portfolio,section#skill,footer").removeClass("backT");
+                        $("section#aboutme,section#portfolio,section#skill,footer").removeClass("backT");
                         $("header").css("transition","0.5s").css("margin-left","0");
                     }
                 });
@@ -66,8 +66,15 @@
                 $("footer .last > a").click(function(){
                     $("html,body").animate({scrollTop:0},1000);
                 });
-                
-
+                //새ㅔ
+                // 슬라이드 skill버튼 누르면 해당 페이지로 이동
+                $("header nav.he .ii a:nth-of-type(1)").click(function(){
+                    $("html,body").animate({scrollTop:$(window).height()*3+900},1000);
+                });
+                // 슬라이드 contact버튼 누르면 해당 페이지로 이동
+                $("header nav.he .ii a:nth-of-type(2)").click(function(){
+                    $("html,body").animate({scrollTop:$(window).height()*4+900},1000);
+                });
             }
           );
     </script>
@@ -85,28 +92,31 @@
                 <ul class="list">
                     <li>Name: Dabin Kim</li>
                     <li>1999Y  12M  10D</li>
-                    <li>Hi! I'm Dabin, a Web publisher who likes new things.</li>
+                    <li>안녕하세요 저는 다빈입니다. <span>저는 새로운 것을 습득하는 것을 좋아하고, 사람들과 어울러 지내는 것을 좋아해요:)</span></li>
                 </ul>   
             </div>             
             <div class="ii">
-                <a href="#skill">skill</a>
-                <a href="#last">contact</a>
+                <a href="#">skill</a>
+                <!-- #skill -->
+                <a href="#">contact</a>
+                <!-- #last -->
             </div>
         </nav>
     </header>
     <!-- 타이틀 영역 -->
     <div id="title">
-        <section id="aboutme">
+        <section id="aboutme" class="vh100">
             <div class="subT wrap">
-                    <ul class="list1">
-                        <li class="kor">계획하고 실행하는 웹퍼블리셔
-                        <span class="eng">I didn't know how to code like an elementary student but I am a prepared to Web publisher, Now I am coding, too! I'm a prepared Web publisher!</span></li>
-                    </ul>
-                    <ul class="list2">
-                        <li class="kor">학력: <span>2017.3~2021.8 전주대학교</span></li>
-                        <li class="kor">경력:<span>2020.12~2021.4 (주)한신 주임 2021.7~2023.6 전주대학교 소방안전공학과 행정조교</span> </li>
-                        <li class="kor">직업훈련이력: <span>이젠IT컴퓨터아카데미 모란 [디지털디자인]UX/UI 웹디자인 with 유튜브동영상 반응형 웹(스마트혼합)-B</span> </li>
-                    </ul>
+                <h2 class="h4 kor">저는 <span>#계획하고</span> <span>#실행하고</span> <span>#습득하는</span> 김 다빈입니다.</h2>
+                <ul class="list1">
+                    <img src="img/me3.png" alt="me2">
+                </ul>
+                <ul class="list2">
+                    <li class="kor">저에요👋</li>
+                    <li class="kor">학력: <span>2017.3~2021.8 전주대학교</span></li>
+                    <li class="kor">경력:<span>2020.12~2021.4 (주)한신 주임 2021.7~2023.6 전주대학교 소방안전공학과 행정조교</span> </li>
+                    <li class="kor">직업훈련이력: <span>이젠IT컴퓨터아카데미 모란 [디지털디자인]UX/UI 웹디자인 with 유튜브동영상 반응형 웹(스마트혼합)-B</span> </li>
+                </ul>
             </div>
         </section>
         <section id="portfolio">
@@ -251,7 +261,7 @@
         <section id="skill">
             <div class="wrap">
                 <h2 class="h2">The things I do</h2>
-                <p class="p">There are the skills I learned for 5 months</p>
+                <p class="p kor">제가 5개월간 배운 스킬입니다.</p>
                 <div class="graphM">
                     <div class="graph stick1">
                         <span>HTML5</span>

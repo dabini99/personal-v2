@@ -46,8 +46,11 @@ header nav.he .between ul.list li{
   line-height: 1.4;
   font-family: 'LeeSeoyun';
 }
+header nav.he .between ul.list li span{
+  display: block;
+  line-height: 1.4;
+}
 header nav.he .between .subPage{
-
   width: 100%;
 }
 header nav.he .between .subPage a{
@@ -62,7 +65,7 @@ header nav.he .between .subPage a{
 }
 /* header 버튼 */
 header nav.he .ii{
-  width: 85%;
+  width: 70%;
   height: 100%;
   display: flex;
   gap: 20px;
