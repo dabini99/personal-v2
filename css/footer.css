@@ -69,7 +69,7 @@ footer .last>a{
   display: flex; 
   justify-content: center; 
   align-items: center; 
-  background-color: rgba(159, 157, 157, 0.5); 
+  background-color: rgba(255, 192, 203, 0.5); 
   border-radius: 50%; 
 }
 footer .last > a::before{
@@ -87,7 +87,7 @@ footer .last > a::after{
   width: 140px;
   height: 140px;
   position: absolute;
-  border: dashed #e3fb91;
+  border: dashed rgb(25, 157, 157);
   border-radius: 50%;
 }
 
