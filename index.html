@@ -63,11 +63,10 @@
                 });
 
                 //top버튼 누르면 위로 올라가기
-                $("footer .last > a").click(function(){
+                $("footer .last > a,#portfolio .wrap > a").click(function(){
                     $("html,body").animate({scrollTop:0},1000);
                 });
-                //top버튼이 타이틀 때는 안보이고 창 슬라이드하면 보이게 하기
-
+                
                 // 슬라이드 skill버튼 누르면 해당 페이지로 이동
                 $("header nav.he .ii a:nth-of-type(1)").click(function(){
                     $("html,body").animate({scrollTop:$(window).height()*3+900},1000);
@@ -266,6 +265,7 @@
                         </a>
                     </div>
                 </div>
+                <a href="#">Top</a>
             </div>
         </section>
     </div>
