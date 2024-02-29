@@ -1,70 +1,224 @@
 @media screen and (max-width:768px){
-  /* header{
+/*  header  */
+  header{
   position: initial;
-}
-  header nav.he{ 
-  width: 100%;
-  height: auto;
+  padding: 0 10px;
+  background-color: #c7c6c6;
   }
-  header nav.he .between{
+  header nav.he{
+  width: 100%;
+  height: 50px;
+  }
+  header nav.he .between{   
+  /*! display: grid; */
+  /*! column-gap: 10px; */
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  row-gap: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  }
+  header nav.he hl{    
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  header nav.he .between > img{    
+  grid-column: 1;
+  grid-row: 2;
+  width: 100px;
+  height: 100px;
+  justify-self: center;
+  display: none;
+  }
+  header nav.he .between ul.list{    
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  display: none;
+  }
+  header nav.he .ii{ 
   display: none;
   }
 /*  title  */
-  /*#title{
+  #title{
+  padding: 0 10px;
+  }
+  section#aboutme{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  }
+  section#aboutme .subT{
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+  width: 100%;
+  column-gap: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  padding: 20px 0;
+  }
+  section#aboutme .subT h2{    
+  padding: 0 0 0 30px;
+  grid-row: 1;
+  /*! width: 100%; */
+  line-height: 1.4;
+  font-size: 4.9vw;
+  padding: 0;
+  grid-column: 1 / span 2;
+  display: none;
+  }
+  section#aboutme .subT h2 span{
+    display: block;
+  }
+  section#aboutme .subT ul.list1{
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  /*! display: none; */
+  width: 100%;
+  width: 240px;
+  height: 340px;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 15px;
+  }
+  section#aboutme .subT ul.list1 img{
+  width: 100%;
+  height: 100%;
+  box-shadow: initial;
+  }
+  section#aboutme .subT ul.list2{    
+  grid-row: 2;
+  width: 100%;
+  grid-column: 1 / span 2;
+  }
+  section#aboutme .subT ul.list2 li{
     
+  }
+  section#aboutme .subT ul.list2 li span{
+    
+  }
+/*  portfolio  */
+  section#portfolio{    
+  margin: 0;
   width: 100%;
   }
-  section#portfolio{   
-  margin-left: 0;
-  width: 100%;
-  /*! padding: 0 10px; */
-  /* }
   section#portfolio .wrap{
-    
   padding: 0;
+  width: 100%;
   }
   section#portfolio .wrap h2{
-    
-  padding-left: 15px;
-  font-size: 4rem;
+  width: 100%;
+  padding: 0;
+  font-size: 18vw;
   }
-  section#portfolio .wrap > ul{
-    
-  gap: 0;
+  section#portfolio .wrap > div.flex{
   width: 100%;
   }
-  section#portfolio .wrap ul li{
-  width: 100%;
-  flex-direction: column !important;
+  section#portfolio .wrap > div.flex .odd{  
+  width: calc((100% / 2) - 20px);
+  padding: 10px;
+  box-sizing: initial;
   }
-  section#portfolio .wrap > ul > li a{
-    
-  width: 100vw !important;
-  }
-  section#portfolio .wrap ul li img{
-  max-width: 100% !important;
-  height: auto !important;
-  padding: 0 !important;
-  }
-  section#portfolio .wrap ul li div.text{
-    
+  section#portfolio .wrap > div.flex .odd a{ 
   width: 100%;
   }
-  section#portfolio .wrap ul li div.text h3{
-  font-size: 3rem;
-  margin: 10px;
+  section#portfolio .wrap > div.flex .odd a .text h3{    
+  font-size: 8vw;
   }
-  section#portfolio .wrap ul li div.text ul{
+  section#portfolio .wrap > div.flex .even{
+  width: calc((100% / 2) - 20px);
+  padding: 10px;
+  box-sizing: initial;
+  }
+  section#portfolio .wrap > div.flex .even a{
+    width: 100%;
+  }
+  section#portfolio .wrap > div.flex .even a .text h3{    
+  font-size: 8vw;
+  }
+  section#portfolio .wrap > a{ 
+  display: none;
+  }
+/*  skills  */
+  main{
     
+  padding: 0 10px;
   }
-  section#portfolio .wrap ul li div.text ul li{
-  font-size: 1.5rem !important;
-  width: 100% !important;
-  display: block;
-  }
-  section#portfolio .wrap ul li div.text ul li span{
-    
-  display: block;
+  section#skill{
+  margin: 0;
   width: 100%;
-  } */ 
+  }
+  section#skill .wrap{ 
+  width: 100%;
+  }
+  section#skill .wrap h2{
+    font-size: 11vw;
+  }
+  section#skill .wrap p{
+  display: none;
+  }
+/* footer */
+  footer{
+  margin: 0;
+  padding: 50px 10px;
+  }
+  footer .last{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  }
+  footer .last ul{
+  width: 100%;
+  padding: 0;
+  grid-template-columns: 100%;
+  grid-template-rows: auto repeat(4,1fr);
+  padding-bottom: 15px;
+  }
+  footer .last ul li{
+    
+  }
+  footer .last ul li:nth-child(1){ 
+  margin: 0;
+  grid-row: 1;
+  }
+  footer .last ul li:not(:first-child){    
+  margin: 0;
+  justify-self: end;
+  }
+  footer .last ul li:nth-child(2){
+    
+  grid-row: 2;
+  grid-column: 1;
+  }
+  footer .last ul li:nth-child(3){
+    
+  grid-row: 3;
+  grid-column: 1;
+  }
+  footer .last ul li:nth-child(4){
+    
+  grid-row: 4;
+  grid-column: 1;
+  }
+  footer .last ul li:nth-child(5){
+    
+  grid-row: 5;
+  grid-column: 1;
+  }
+  footer .last > p{ 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  }
+  footer .last > a{    
+  display: none;
+  }
 }

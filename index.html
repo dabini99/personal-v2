@@ -45,22 +45,36 @@
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/response.css">
 <!-- 제이쿼리 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
          $(document).ready(
              function(){
+                // if($(window).width()<768){
+                //     //자기소개 부분 옆으로 슬라이딩
+                //     $(window).scroll(function(){
+                //         if($(window).scrollTop()>$("section#portfolio .wrap ul li:nth-child(1)").height()+140){
+                //             $("header").addClass("slideH");
+                //             $("section#aboutme,section#portfolio,section#skill,footer").addClass("backT");
+                //         }else{
+                //             $("header").removeClass("slideH");
+                //             $("section#aboutme,section#portfolio,section#skill,footer").removeClass("backT");
+                //             $("header").css("transition","0.5s").css("margin-left","0");
+                //         }
+                //     });
+                // }
                 //자기소개 부분 옆으로 슬라이딩
                 $(window).scroll(function(){
-                    if($(window).scrollTop()>$("section#portfolio .wrap ul li:nth-child(1)").height()+140){
-                        $("header").addClass("slideH");
-                        $("section#aboutme,section#portfolio,section#skill,footer").addClass("backT");
-                    }else{
-                        $("header").removeClass("slideH");
-                        $("section#aboutme,section#portfolio,section#skill,footer").removeClass("backT");
-                        $("header").css("transition","0.5s").css("margin-left","0");
-                    }
-                });
+                        if($(window).scrollTop()>$("section#portfolio .wrap ul li:nth-child(1)").height()+140){
+                            $("header").addClass("slideH");
+                            $("section#aboutme,section#portfolio,section#skill,footer").addClass("backT");
+                        }else{
+                            $("header").removeClass("slideH");
+                            $("section#aboutme,section#portfolio,section#skill,footer").removeClass("backT");
+                            $("header").css("transition","0.5s").css("margin-left","0");
+                        }
+                    });
 
                 //top버튼 누르면 위로 올라가기
                 $("footer .last > a,#portfolio .wrap > a").click(function(){
@@ -300,6 +314,9 @@
                     </div>
                     <div class="graph stick5">
                         <span>llustrator</span>
+                    </div>
+                    <div class="graph stick5">
+                        <span>Vue.js</span>
                     </div>
                 </div>
             </div>

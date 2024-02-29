@@ -49,8 +49,8 @@ footer .last ul li:nth-child(5){
   grid-column: 2;
   grid-row: 4;
 }
-footer .last ul li>a{
-   
+footer .last ul li>a{   
+  display: block;
 }
 footer .last>p{  
   margin-left: 110px;
