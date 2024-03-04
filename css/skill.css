@@ -16,7 +16,7 @@ section#skill .wrap{
   box-sizing: border-box;
   /*! border-radius: 30px; */
   padding-right: 50px;
-  height: 100%;
+  /*! height: 100%; */
 }
 section#skill .wrap h2{
   font-size: 75px;
@@ -36,6 +36,7 @@ section#skill .wrap .graphM{
   row-gap: 20px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
 }
 section#skill .wrap .graphM .graph{
   display: flex;
@@ -114,6 +115,15 @@ section#skill .wrap .graphM .graph:nth-child(8)::before{
   background-size: contain;
   background-repeat: no-repeat;
 }
+section#skill .wrap .graphM .graph:nth-child(9)::before{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-image: url(../img/Vue.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 section#skill .wrap .graphM .graph span{
   height: 30px;
   display: block;
@@ -156,6 +166,21 @@ section#skill .wrap .graphM .graph:nth-child(7) span{
 section#skill .wrap .graphM .graph:nth-child(8) span{  
   background-color: #ef9393;
   width: 55%;
+}
+section#skill .wrap .graphM .graph:nth-child(9) span{  
+  background-color: #ef9393;
+  width: 65%;
+}
+section#skill .wrap .someth{
+  width: 100%;
+  border-top: 2px solid #8888;
+  padding-top: 30px;
+}
+section#skill .wrap .someth ul{  
+  gap: 30px;
+}
+section#skill .wrap .someth ul li{
+  
 }
 .backT{
   margin-left: 0 !important;

@@ -50,7 +50,7 @@ footer .last ul li:nth-child(5){
   grid-row: 4;
 }
 footer .last ul li>a{   
-  display: block;
+  /*! display: block; */
 }
 footer .last>p{  
   margin-left: 110px;
@@ -71,6 +71,7 @@ footer .last>a{
   align-items: center; 
   background-color: rgba(255, 192, 203, 0.5); 
   border-radius: 50%; 
+  right: 30px;
 }
 footer .last > a::before{
   content: "";
