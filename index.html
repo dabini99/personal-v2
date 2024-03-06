@@ -100,10 +100,58 @@
         AOS.init();
     });
   </script>
+  <!-- 마우스휠 -->
+    <script type="text/javascript">
+        window.onload = function () {
+            var elm = ".box";
+            $(elm).each(function (index) {
+                // 개별적으로 Wheel 이벤트 적용
+                $(this).on("mousewheel DOMMouseScroll", function (e) {
+                    e.preventDefault();
+                    var delta = 0;
+                    if (!event) event = window.event;
+                    if (event.wheelDelta) {
+                        delta = event.wheelDelta / 120;
+                        if (window.opera) delta = -delta;
+                    } 
+                    else if (event.detail)
+                        delta = -event.detail / 3;
+                    var moveTop = $(window).scrollTop();
+                    var elmSelecter = $(elm).eq(index);
+                    // 마우스휠을 위에서 아래로
+                    if (delta < 0) {
+                        if ($(elmSelecter).next() != undefined) {
+                            try{
+                                moveTop = $(elmSelecter).next().offset().top;
+                            }catch(e){}
+                        }
+                    // 마우스휠을 아래에서 위로
+                    } else {
+                        if ($(elmSelecter).prev() != undefined) {
+                            try{
+                                moveTop = $(elmSelecter).prev().offset().top;
+                            }catch(e){}
+                        }
+                    }
+                    
+                    // 화면 이동 0.8초(800)
+                    $("html,body").stop().animate({
+                        scrollTop: moveTop + 'px'
+                    }, {
+                        duration: 800, complete: function () {
+                        }
+                    });
+                });
+            });
+        
+            $("main>section,#title>section").unwrap();
+            $("section:not('#portfolio')").css("height","100%");
+        }
+    </script>
 </head>
 <body>
     <!-- 상단영역 -->
-    <header>
+    <header class="box">
         <nav class="he flex column">
             <div class="between flex">
                 <hl>
@@ -124,9 +172,8 @@
             </div>
         </nav>
     </header>
-    <!-- 타이틀 영역 -->
-    <div id="title">
-        <section id="aboutme" class="vh100">
+    <main>
+        <section id="aboutme" class="vh100 box">
             <div class="subT wrap">
                 <h2 class="h4 kor">저는 <span>#계획하고</span> <span>#실행하고</span> <span>#습득하는</span> 김 다빈입니다.</h2>
                 <ul class="list1">
@@ -282,9 +329,7 @@
                 <a href="#">Top</a>
             </div>
         </section>
-    </div>
-    <main>
-        <section id="skill">
+        <section id="skill" class="box">
             <div data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine" class="wrap">
@@ -328,9 +373,9 @@
                     </ul>
                 </div>
             </div>
-    </section>
+        </section>
     </main>
-    <footer id="last" data-aos="fade-left">
+    <footer id="last" data-aos="fade-left" class="box">
         <div class="last wrap">
             <!--  -->
             <ul class="flex">

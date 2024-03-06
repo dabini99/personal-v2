@@ -1,5 +1,6 @@
 body{
   background-color: #c7c6c6;
+  overflow-x: hidden;
 }
 /* 상단영역 */
 header{
