@@ -5,6 +5,7 @@ footer{
   /*! min-height: 600px; */
   position: relative;
   background-color: #c7c6c6;
+  background-color: #b8e3ea;
 }
 footer .last{   
   background-color: rgba(256,256,256,0.4)

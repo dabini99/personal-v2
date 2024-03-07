@@ -12,6 +12,7 @@ section#aboutme{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #9d91cf;
 }
 section#aboutme .subT{
   background-color: #eeeeee;
@@ -125,7 +126,7 @@ section#portfolio .wrap>div.flex .odd a .text h3{
   padding-bottom: 10px;
 }
 section#portfolio .wrap>div.flex .odd a .text ul{
-
+  color: #666;
 }
 section#portfolio .wrap>div.flex .odd a .text ul li{
   line-height: 1.4;
@@ -154,8 +155,8 @@ section#portfolio .wrap > div.flex .even a .text{
 section#portfolio .wrap > div.flex .even a .text h3{  
   padding-bottom: 10px;
 }
-section#portfolio .wrap > div.flex .even a .text ul{
-  
+section#portfolio .wrap > div.flex .even a .text ul{  
+  color: #666;
 }
 section#portfolio .wrap > div.flex .even a .text ul li{
   line-height: 1.4;
