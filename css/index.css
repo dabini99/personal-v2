@@ -50,6 +50,7 @@ header nav.he .between ul.list{
 header nav.he .between ul.list p{
   line-height: 1.4;
   font-family: 'LeeSeoyun';
+  font-weight: 700;
 }
 header nav.he .between ul.list p span{
   display: block;
