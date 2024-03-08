@@ -50,7 +50,11 @@ header nav.he .between ul.list{
 header nav.he .between ul.list p{
   line-height: 1.4;
   font-family: 'LeeSeoyun';
-  font-weight: 700;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+header nav.he .between ul.list p:nth-of-type(3){ 
+  color: #4c4b4b;
 }
 header nav.he .between ul.list p span{
   display: block;

@@ -30,6 +30,7 @@ section#skill .wrap h2{
   /*! border-top: 3px solid; */
   /*! padding-left: 110px; */
   padding-bottom: 30px;
+  font-weight: 700;
 }
 section#skill .wrap p{
   line-height: 3;

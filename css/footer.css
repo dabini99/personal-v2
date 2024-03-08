@@ -53,6 +53,9 @@ footer .last ul li:nth-child(5){
 footer .last ul li>a{   
   /*! display: block; */
 }
+footer .last ul li:nth-of-type(1) > a{
+  font-weight: 700;
+}
 footer .last>p{  
   margin-left: 110px;
   padding-bottom: 50px;

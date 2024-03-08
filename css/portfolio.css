@@ -94,6 +94,7 @@ section#portfolio .wrap h2{
   border-top: 3px solid #ddd;
   padding-left: 110px;
   padding-top: 30px;
+  font-weight: 700;
 }
 section#portfolio .wrap>div.flex{
   /*! flex-direction: column; */
@@ -132,7 +133,8 @@ section#portfolio .wrap>div.flex .odd a .text ul li{
   line-height: 1.4;
 }
 section#portfolio .wrap>div.flex .odd a .text ul li span{
-
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
 }
 section#portfolio .wrap>div.flex .even{
   width: calc(30% - 10px);
@@ -161,8 +163,9 @@ section#portfolio .wrap > div.flex .even a .text ul{
 section#portfolio .wrap > div.flex .even a .text ul li{
   line-height: 1.4;
 }
-section#portfolio .wrap > div.flex .even a .text ul li span{
-  
+section#portfolio .wrap > div.flex .even a .text ul li span{  
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
 }
 section#portfolio .wrap > a{  
   /*! font-size: 0; */
