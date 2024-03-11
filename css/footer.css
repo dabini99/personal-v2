@@ -1,11 +1,11 @@
 footer{
   margin-left: 300px;
-  background-color: #eeb5b6;
+  /*! background-color: #eeb5b6; */
   padding: 50px;
   /*! min-height: 600px; */
   position: relative;
-  background-color: #c7c6c6;
-  background-color: #b8e3ea;
+  /*! background-color: #c7c6c6; */
+  /*! background-color: #b8e3ea; */
 }
 footer .last{   
   background-color: rgba(256,256,256,0.4)
