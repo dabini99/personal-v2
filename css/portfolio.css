@@ -1,18 +1,18 @@
 /* about me */
 section#aboutme{
   margin-left: 300px;
-  background-color: #eeb5b6;
+  /*! background-color: #eeb5b6; */
   /*! padding-bottom: 50px; */
   /*! height: 100vh; */
   /*! min-height: 770px; */
   padding-top: 50px;
   margin-left: 300px;
-  background-color: #c7c6c6;
+  /*! background-color: #c7c6c6; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #9d91cf;
+  /*! background-color: #9d91cf; */
 }
 section#aboutme .subT{
   background-color: #eeeeee;
@@ -168,7 +168,6 @@ section#portfolio .wrap > div.flex .even a .text ul li span{
   line-height: 1.4;
 }
 section#portfolio .wrap > a{  
-  /*! font-size: 0; */
   display: block;
   position: absolute;left: -150px;
   top: calc(100% / 2);
@@ -182,6 +181,8 @@ section#portfolio .wrap > a{
   background-color: rgba(25, 157, 157, 0.5);
   border-radius: 50%;
   font-size: 50px;
+  transform: rotateZ(10deg);
+  color: white;
 }
 section#portfolio .wrap > a::after{  
   content: "";

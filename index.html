@@ -104,6 +104,20 @@
         AOS.init();
     });
   </script>
+  <!-- 유튜브 영상 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.4/css/jquery.mb.YTPlayer.min.css">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.4/jquery.mb.YTPlayer.min.js"></script>
+  <style>
+  #background{
+      z-index: -1;
+  }
+  </style>
+  <script>
+      jQuery( function() {  //$는 jQuery 단축표기, $(document).ready...를 단축표기해서 $(function(){})
+          jQuery( '#background' ).YTPlayer();
+      });
+  </script>
   <!-- 마우스휠 -->
     <!-- <script type="text/javascript">
         window.onload = function () {
@@ -190,6 +204,21 @@
                     <p class="kor">대학교를 졸업하고 소방안전공학과에서 행정조교로 일했답니다.<span>주로 학생들 상담이나, 민원을 받고, 교수님들 스케쥴과 시간표를 만들고, 학생들이 졸업할 수 있도록 학사 업무를 도와주는 업무를 했어요.</span></p>
                     <p class="kor">모란에 있는 이젠 IT컴퓨터 아카데미에서 [디지털디자인]UX/UI 웹디자인 with 유튜브 동영상 반응형 웹(스마트혼합)-B 수업을 들었어요📝</p>
                 </ul>
+            </div>
+            <!-- youtube 영상 -->
+            <div id="background" class="player" data-property="{
+                videoURL: 'https://youtu.be/RFlxy6vGm_0',
+                mute: true,
+                showControls: false,
+                useOnMobile: true,
+                quality: 'highres',
+                containment: 'body',
+                loop: true,
+                autoPlay: true,
+                stopMovieOnBlur: false,
+                startAt: 0,
+                opacity: 1
+            }">
             </div>
         </section>
         <section id="portfolio">
@@ -390,11 +419,11 @@
         <div class="last wrap">
             <!--  -->
             <ul class="flex">
-                <li><a href="">Contact</a></li>
+                <li>Contact</li>
                 <li><a href="">Gmail</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">LinkedIn</a></li>
-                <li><a href="">Github</a></li>
+                <li><a href="https://instagram.com/9xoxo._.9xo">Instagram</a></li>
+                <li><a href="https://linkedin.com/in/daninunu">LinkedIn</a></li>
+                <li><a href="https://github.com/dabini99">Github</a></li>
             </ul>
             <p>© 2023 KIMDABIN</p>
             <a href="#">Top</a>

@@ -5,7 +5,9 @@
 <svg height="800px" width="800px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
 	 viewBox="0 0 512 512"  xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#000000;}
+	<!-- .st0{fill:#000000;} -->
+	.st0{fill:#199d9d;}
+
 </style>
 <g>
 	<path class="st0" d="M472.732,243.625l-0.869-1.337l-0.929-1.296L320.925,33.194C305.854,12.379,281.598,0,255.996,0
