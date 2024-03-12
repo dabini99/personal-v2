@@ -5,7 +5,7 @@
 /*  header  */
   header{
   position: initial;
-  /*! background-color: #c7c6c6; */
+  background-color: rgba(184, 227, 234,0.4);
   }
   header nav.he{
   width: 100%;
