@@ -3,6 +3,9 @@ body{
   overflow-x: hidden;
   background-color: #9d91cf;
 }
+#wrapper_background{
+  z-index: -2 !important;    
+}
 /* 상단영역 */
 header{
   position: fixed;
