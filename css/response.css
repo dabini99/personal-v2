@@ -6,6 +6,7 @@
   header{
   position: initial;
   background-color: rgba(184, 227, 234,0.4);
+  background: initial;
   }
   header nav.he{
   width: 100%;
