@@ -54,7 +54,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
          $(document).ready(
-             function(){
+            function(){
                 // if($(window).width()<768){
                 //     //자기소개 부분 옆으로 슬라이딩
                 //     $(window).scroll(function(){
@@ -92,6 +92,15 @@
                 // 슬라이드 contact버튼 누르면 해당 페이지로 이동
                 $("header nav.he .ii a:nth-of-type(2)").click(function(){
                     $("html,body").animate({scrollTop:$(window).height()*4+900},1000);
+                });
+                //gmail에 손 올리면 이메일 나타나고 사라지게만들기
+                $("footer .last ul li:nth-child(2)").hover(
+                    function(){
+                    $("footer .last ul p.mail").show();
+                });
+                $("footer .last ul li:nth-child(2)").mouseleave(
+                    function(){
+                    $("footer .last ul p.mail").hide();
                 });
             }
           );
@@ -420,12 +429,12 @@
             <!--  -->
             <ul class="flex">
                 <li>Contact</li>
-                <li><a href="">Gmail</a></li>
+                <li><a href="">Gmail</a><p class="mail hide">djssk8475@gmail.com</p></li>
                 <li><a href="https://instagram.com/9xoxo._.9xo">Instagram</a></li>
                 <li><a href="https://linkedin.com/in/daninunu">LinkedIn</a></li>
                 <li><a href="https://github.com/dabini99">Github</a></li>
             </ul>
-            <p>© 2023 KIMDABIN</p>
+            <p class="link">© 2023 KIMDABIN</p>
             <a href="#">Top</a>
         </div>
     </footer>
