@@ -1,7 +1,7 @@
 body{
-  background-color: #c7c6c6;
+  /*! background-color: #c7c6c6; */
   overflow-x: hidden;
-  background-color: #9d91cf;
+  /*! background-color: #9d91cf; */
 }
 #wrapper_background{
   z-index: -2 !important;    
