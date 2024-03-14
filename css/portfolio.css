@@ -115,6 +115,8 @@ section#portfolio .wrap>div.flex .odd{
 }
 section#portfolio .wrap > div.flex .odd:hover{
   background-color: #ddd;
+  border: dashed 4px;
+  border-radius: 10px;
 }
 section#portfolio .wrap>div.flex .odd a{
 
@@ -147,6 +149,8 @@ section#portfolio .wrap>div.flex .even{
 }
 section#portfolio .wrap>div.flex .even:hover{
   background-color: #ddd;
+  border: dashed 4px;
+  border-radius: 10px;
 }
 section#portfolio .wrap>div.flex .even a{
 

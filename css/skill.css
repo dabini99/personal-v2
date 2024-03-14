@@ -193,16 +193,25 @@ section#skill .wrap .someth ul li{
   justify-content: center;
   align-items: center;
   gap: 15px;
-  min-height: 800px;
+  /*! min-height: 800px; */
+  padding-bottom: 50px;
+}
+#story .storyG{  
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
 }
 #story .s1{  
   background-color: rgba(255,192,203,0.9);
   padding: 50px;
-  border-radius: 10px;
+  border-radius: 30px;
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: auto auto;
   box-sizing: border-box;
+  width: 700px;
+  height: 150px;
 }
 #story .s1 h2{  
   font-size: 0;
@@ -229,11 +238,13 @@ section#skill .wrap .someth ul li{
 #story .s2{  
   background-color: rgba(184,227,234,0.9);
   padding: 50px;
-  border-radius: 10px;  
+  border-radius: 30px;  
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: auto auto;
   box-sizing: border-box;
+  width: 700px;
+  height: 150px;
 }
 #story .s2 h3{  
   font-size: 0;
@@ -260,11 +271,15 @@ section#skill .wrap .someth ul li{
 #story .s3{  
   background-color: rgba(246,235,181,0.9);
   padding: 50px;
-  border-radius: 10px;
+  border-radius: 30px;
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: auto auto;
   box-sizing: border-box;
+  /*! width: 660px; */
+  height: 150px;
+  grid-row: 2;
+  grid-column: 1 / span 2;
 }
 #story .s3 h4{  
   font-size: 0;

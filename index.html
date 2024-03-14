@@ -102,6 +102,8 @@
                     function(){
                     $("footer .last ul p.mail").hide();
                 });
+                //story 부분 그룹만들어주기
+                $("#story .s1,#story .s2,#story .s3").wrapAll("<div class='storyG wrap'></div>");
             }
           );
     </script>
@@ -422,7 +424,7 @@
                 </div>
             </div>
         </section>
-        <section id="story" class="vh100">
+        <section id="story">
             <div class="s1 wrap">
                 <h2>학력</h2>
                 <p>2017.03~2021.08 전주대학교 경배와찬양학과 졸업</p>

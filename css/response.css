@@ -1,8 +1,8 @@
-@media screen and (max-width:768px){
-  body{
-    padding: 0 10px;
+@media screen and (max-width:1200px){
+  main{    
+  padding: 0 10px;
   }
-/*  header  */
+  /*  header  */
   header{
   position: initial;
   background-color: rgba(184, 227, 234,0.4);
@@ -52,7 +52,7 @@
   header nav.he .ii{ 
   display: none;
   }
-/*  title  */
+  /*  title  */
   #title{
   padding: 0 10px;
   }
@@ -164,9 +164,6 @@
   display: none;
   }
 /*  skills  */
-  main{
-    
-  }
   section#skill{
   margin: 0;
   width: 100%;
@@ -190,6 +187,11 @@
 /*  story  */
   #story{    
   width: 100%;
+  }
+  #story .storyG{    
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   }
   #story .s1{    
   width: 100%;
@@ -264,5 +266,23 @@
   }
   footer .last > a{    
   display: none;
+  }
+}
+@media screen and (max-width:768px){
+  body{
+    padding: 0 10px;
+  }
+  #story .s1{    
+  height: 100%;
+  }
+  #story .s2{    
+  height: 100%;
+  }
+  #story .s3{    
+  height: 100%;
+  width: 100%;
+  }
+  #story .s3 p{
+    height: 100%;
   }
 }
