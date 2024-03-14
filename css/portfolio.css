@@ -137,8 +137,10 @@ section#portfolio .wrap>div.flex .odd .text button{
   text-decoration: none;
   font-weight: 600;
   transition: 0.25s;
-  border: 3px solid #fce205;
+  border: 3px solid #b8e3ea;
   color: #6e6e6e;
+  /*! left: 25%; */
+  color: black;
 }
 section#portfolio .wrap>div.flex .even{
   width: calc(30% - 10px);
@@ -170,8 +172,9 @@ section#portfolio .wrap > div.flex .even .text button{
   text-decoration: none;
   font-weight: 600;
   transition: 0.25s;
-  border: 3px solid #fce205;
+  border: 3px solid #b8e3ea;
   color: #6e6e6e;
+  color: black;
 }
 section#portfolio .wrap > a{  
   display: block;
