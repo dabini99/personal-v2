@@ -194,7 +194,7 @@ section#skill .wrap .someth ul li{
   min-height: 800px;
 }
 #story .s1{  
-  background-color: #f6ebb5;
+  background-color: rgba(255,192,203,0.9);
   padding: 50px;
   border-radius: 10px;
   display: grid;
@@ -225,7 +225,7 @@ section#skill .wrap .someth ul li{
   align-items: center;
 }
 #story .s2{  
-  background-color: #b8e3ea;
+  background-color: rgba(184,227,234,0.9);
   padding: 50px;
   border-radius: 10px;  
   display: grid;
@@ -256,7 +256,7 @@ section#skill .wrap .someth ul li{
   align-items: center;
 }
 #story .s3{  
-  background-color: #ffc0cb;
+  background-color: rgba(246,235,181,0.9);
   padding: 50px;
   border-radius: 10px;
   display: grid;

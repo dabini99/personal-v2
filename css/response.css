@@ -187,6 +187,31 @@
   section#skill .wrap .graphM{    
   display: flex;
   }
+/*  story  */
+  #story{    
+  width: 100%;
+  }
+  #story .s1{    
+  width: 100%;
+  column-gap: 20px;
+  }
+  #story .s1 p{    
+  line-height: 1.4;
+  }
+  #story .s2{    
+  width: 100%;
+  column-gap: 20px;
+  }
+  #story .s2 p{    
+  line-height: 1.4;
+  }
+  #story .s3{    
+  width: 100%;
+  column-gap: 20px;
+  }
+  #story .s3 p{    
+  line-height: 1.4;
+  }
 /* footer */
   footer{
   margin: 0;
@@ -216,23 +241,19 @@
   margin: 0;
   justify-self: end;
   }
-  footer .last ul li:nth-child(2){
-    
+  footer .last ul li:nth-child(2){    
   grid-row: 2;
   grid-column: 1;
   }
-  footer .last ul li:nth-child(3){
-    
+  footer .last ul li:nth-child(3){    
   grid-row: 3;
   grid-column: 1;
   }
-  footer .last ul li:nth-child(4){
-    
+  footer .last ul li:nth-child(4){    
   grid-row: 4;
   grid-column: 1;
   }
-  footer .last ul li:nth-child(5){
-    
+  footer .last ul li:nth-child(5){    
   grid-row: 5;
   grid-column: 1;
   }
