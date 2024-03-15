@@ -141,6 +141,7 @@ section#portfolio .wrap>div.flex .odd .text button{
   color: #6e6e6e;
   /*! left: 25%; */
   color: black;
+  box-shadow: 7px 7px rgba(10, 10, 10, 0.3);
 }
 section#portfolio .wrap>div.flex .even{
   width: calc(30% - 10px);
@@ -175,6 +176,7 @@ section#portfolio .wrap > div.flex .even .text button{
   border: 3px solid #b8e3ea;
   color: #6e6e6e;
   color: black;
+  box-shadow: 7px 7px rgba(10, 10, 10, 0.3);
 }
 section#portfolio .wrap > a{  
   display: block;

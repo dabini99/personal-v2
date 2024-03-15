@@ -146,6 +146,9 @@
   section#portfolio .wrap > div.flex .odd a{ 
   width: 100%;
   }
+  section#portfolio .wrap > div.flex .odd .text h3{    
+  font-size: 1.4rem;
+  }
   section#portfolio .wrap > div.flex .odd a .text h3{    
   font-size: 8vw;
   }
@@ -156,6 +159,9 @@
   }
   section#portfolio .wrap > div.flex .even a{
     width: 100%;
+  }
+  section#portfolio .wrap > div.flex .even .text h3{
+    font-size: 1.6rem;
   }
   section#portfolio .wrap > div.flex .even a .text h3{    
   font-size: 8vw;
