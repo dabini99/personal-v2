@@ -109,6 +109,7 @@ section#skill .wrap .graphM .graph span{
   color: white;
   font-weight: 700;
   padding-left: 10px;
+  border-radius: 0 15px 15px 0;
 }
 section#skill .wrap .graphM .graph:nth-child(1) span{  
   background-color: #ef9393;
