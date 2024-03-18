@@ -155,6 +155,22 @@ section#portfolio .wrap>div.flex .even:hover{
 section#portfolio .wrap>div.flex .even a{
 
 }
+section#portfolio .wrap>div.flex a{
+  position: relative;
+}
+section#portfolio .wrap>div.flex a:hover::after{
+content: "작업사이트 보기";
+position: absolute; 
+left: calc(50% - 57px);
+top: 30%;
+width: fit-content;
+text-align: center;
+margin: 0 auto;
+background-color: rgba(255,255,255,0.8);
+padding: 10px;
+border-radius: 10px;
+font-size: 13px;
+}
 section#portfolio .wrap>div.flex .even a img{
   padding-bottom: 15px;
 }
