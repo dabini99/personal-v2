@@ -27,6 +27,7 @@ section#aboutme .subT{
   grid-template-columns: 75% 25%;
   grid-template-rows: auto auto;
   column-gap: 30px;
+  border-radius: 0 100px;
 }
 section#aboutme .subT h2{
   grid-column: 1 / span 2;
