@@ -195,7 +195,7 @@ section#skill .wrap .someth ul li{
   align-items: center;
   gap: 15px;
   /*! min-height: 800px; */
-  background-color: blue;
+  background-color: #b1b1ff;
 }
 #story .storyG{  
   display: grid;
