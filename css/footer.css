@@ -70,39 +70,39 @@ footer .last>p.link{
   margin-left: 110px;
   padding-bottom: 50px;
 }
-footer .last>a{  
-  font-size: 0;
-  display: block;
-  position: absolute;
-  right: 100px;
-  top: -55px;
-  width: 157px;
-  height: 157px;
-  background-size: contain; 
-  background-repeat: no-repeat; 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  background-color: rgba(255, 192, 203, 0.5); 
-  border-radius: 50%; 
-  right: 30px;
-}
-footer .last > a::before{
-  content: "";
-  background-image: url(../img/top.svg);
+footer a.top{
   width: 60px;
-  height: 60px;
-  display: block;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transform: rotateZ(-30deg);
+  height: 100px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 50px;
+  right: 33px;
+  z-index: 1;
+  border-radius: 30px;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s;
+  line-height: initial;
 }
-footer .last > a::after{
+footer a.top:hover{
+  color: yellow;
+  background-color: green;
+}
+footer a.top:before{
   content: "";
-  width: 140px;
-  height: 140px;
-  position: absolute;
-  border: dashed rgb(25, 157, 157);
-  border-radius: 50%;
+  background-image: url(../img/upward.svg);
+  width: 24px;
+  height: 24px;
+  transition: all 1s;
+}
+footer a.top:hover::before{
+  transform: translateY(-7px);
 }
 
