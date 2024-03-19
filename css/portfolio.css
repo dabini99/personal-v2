@@ -117,7 +117,7 @@ section#portfolio .wrap>div.flex .odd{
   flex-direction: column;
 }
 section#portfolio .wrap > div.flex .odd:hover{
-  background-color: #ddd;
+  background-color: #e7e6e6;
 }
 section#portfolio .wrap>div.flex .odd a{
 
@@ -138,18 +138,18 @@ section#portfolio .wrap > div.flex .odd .text .link{
 }
 section#portfolio .wrap>div.flex .odd .text button{
   position: relative;
-  padding: 15px 30px;
+  padding: 8px 20px;
   border-radius: 15px;
   font-family: "paybooc-Light", sans-serif;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  /*! box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); */
   text-decoration: none;
   font-weight: 600;
   transition: 0.25s;
-  border: 3px solid #b8e3ea;
+  border: 1px solid #aaa;
   color: #6e6e6e;
   /*! left: 25%; */
   color: black;
-  box-shadow: 7px 7px rgba(10, 10, 10, 0.3);
+  /*! box-shadow: 7px 7px rgba(10, 10, 10, 0.3); */
   cursor: pointer;
   width: calc(50% - 10px);
   font-size: 13px;
@@ -162,7 +162,7 @@ section#portfolio .wrap>div.flex .even{
   flex-direction: column;
 }
 section#portfolio .wrap>div.flex .even:hover{
-  background-color: #ddd;
+  background-color: #e7e6e6;
 }
 section#portfolio .wrap>div.flex .even a{
 
@@ -187,17 +187,17 @@ section#portfolio .wrap > div.flex .even .text .link{
 }
 section#portfolio .wrap > div.flex .even .text .link button{
   position: relative;
-  padding: 15px 30px;
+  padding: 8px 20px;
   border-radius: 15px;
   font-family: "paybooc-Light", sans-serif;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  /*! box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); */
   text-decoration: none;
   font-weight: 600;
   transition: 0.25s;
-  border: 3px solid #b8e3ea;
+  border: 1px solid #aaa;
   color: #6e6e6e;
   color: black;
-  box-shadow: 7px 7px rgba(10, 10, 10, 0.3);
+  /*! box-shadow: 7px 7px rgba(10, 10, 10, 0.3); */
   cursor: pointer;
   width: calc(50% - 10px);
   font-size: 13px;
