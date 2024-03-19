@@ -85,7 +85,13 @@
                     $("html,body").animate({scrollTop:0},1000);
                 });
                 //top버튼 title부분에서는 안보이고 portfolio부분에서부터 보이기
-                $().
+                $(window).scroll(function(){
+                    if($(window).scrollTop()>$("#aboutme").height()){
+                        $("footer .last a.fix").addClass("top");
+                    }else{
+                        $("footer .last a.fix").removeClass("top");
+                    }
+                });
                 // 슬라이드 skill버튼 누르면 해당 페이지로 이동
                 $("header nav.he .ii a:nth-of-type(1)").click(function(){
                     $("html,body").animate({scrollTop:$(window).height()*3+900},1000);
@@ -459,7 +465,7 @@
                 <li><a href="https://github.com/dabini99">Github</a></li>
             </ul>
             <p class="link">© 2023 KIMDABIN</p>
-            <a href="#" class="top">Top</a>
+            <a href="#" class="fix">Top</a>
         </div>
     </footer>
 </body>
