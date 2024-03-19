@@ -71,6 +71,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
   padding: 20px 0;
+  border-radius: initial;
   }
   section#aboutme .subT h2{    
   padding: 0 0 0 30px;
@@ -149,6 +150,13 @@
   section#portfolio .wrap > div.flex .odd .text h3{    
   font-size: 1.4rem;
   }
+  section#portfolio .wrap > div.flex .odd .text .link{   
+  flex-direction: column;
+  gap: 10px;
+  }
+  section#portfolio .wrap > div.flex .odd .text button{  
+  width: 100%;
+  }
   section#portfolio .wrap > div.flex .odd a .text h3{    
   font-size: 8vw;
   }
@@ -163,6 +171,13 @@
   section#portfolio .wrap > div.flex .even .text h3{
     font-size: 1.6rem;
   }
+  section#portfolio .wrap > div.flex .even .text .link{    
+  flex-direction: column;
+  gap: 10px;
+  }
+  section#portfolio .wrap > div.flex .even .text .link button{    
+  width: 100%;
+  }
   section#portfolio .wrap > div.flex .even a .text h3{    
   font-size: 8vw;
   }
@@ -176,6 +191,7 @@
   height: 100%;
   padding: 0;
   margin-bottom: 50px;
+  background-color: transparent;
   }
   section#skill .wrap{ 
   width: 100%;
@@ -193,6 +209,7 @@
 /*  story  */
   #story{    
   width: 100%;
+  background-color: transparent;
   }
   #story .storyG{    
   width: 100%;
