@@ -153,7 +153,7 @@ section#portfolio .wrap>div.flex .odd .text button{
   cursor: pointer;
   width: calc(50% - 10px);
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
 }
 section#portfolio .wrap>div.flex .even{
   width: calc(30% - 10px);
@@ -201,5 +201,5 @@ section#portfolio .wrap > div.flex .even .text .link button{
   cursor: pointer;
   width: calc(50% - 10px);
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
 }
