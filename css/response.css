@@ -255,37 +255,61 @@
   grid-template-rows: auto repeat(4,1fr);
   padding-bottom: 15px;
   }
-  footer .last ul li{
-    
+  footer .last ul li{    
+  display: initial;
+  }
+  footer .last ul p.Gg{
+    /*! display: none !important; */
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    margin: 0;
+    justify-self: end;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  footer .last ul p.Gg:hover{
+    color: white;
+  }
+  footer .last ul p.insta{    
+  display: none !important;
   }
   footer .last ul li:nth-child(1){ 
   margin: 0;
   grid-row: 1;
+  padding-bottom: 20px;
   }
   footer .last ul li:not(:first-child){    
   margin: 0;
   justify-self: end;
+  grid-row: 5;
+  grid-column: 1;
   }
   footer .last ul li:nth-child(2){    
   grid-row: 2;
   grid-column: 1;
+  display: none !important;
   }
   footer .last ul li:nth-child(3){    
   grid-row: 3;
   grid-column: 1;
   }
   footer .last ul li:nth-child(4){    
-  grid-row: 4;
+  grid-row: 3;
   grid-column: 1;
   }
   footer .last ul li:nth-child(5){    
-  grid-row: 5;
+  grid-row: 4;
   grid-column: 1;
   }
   footer .last > p{ 
   width: 100%;
   margin: 0;
   padding: 0;
+  }
+  footer .last > p.link{   
+  margin: 0;
+  padding-bottom: 20px;
   }
   footer .last > a{    
   display: none;
